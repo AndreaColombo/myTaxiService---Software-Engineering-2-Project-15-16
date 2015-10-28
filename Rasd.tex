@@ -44,7 +44,7 @@ Once registered passengers will be able to:
 
 To taxi drivers will be provided a different account with differents functionalities. They will be able to set their avalaibility, if they are available the system can call them to go to a specified location to pick up a passenger, a call that drivers can accept or refuse.
 
-The system will optimize taxi queues by 
+The system will optimize taxi queues by dividing the city in different zones of 2 km square size, and will assign to each zone a certain number of taxis organized in a queue. Each request is forwarded to the first taxi in the queue associated to the zone from which the request come.
 
 \subsection{Actors}
 	\begin{itemize}
@@ -145,15 +145,14 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 				\begin{itemize}
 					\item Specifies starting position, destination and leaving time of the ride
 					\item Completes the reservation two hours before the ride occurs.
-					\item Did not make a reservation less than thirty minutes before.
+					\item Did not make a reservation for a ride that occurs thirty minutes before or after the requested time.					
 				\end{itemize}
 				\item {[R3]} If the reservation is succesful the system will call for a taxi 10 minutes before the scheduled time and send a notification to the passenger.
 			\end{itemize}
 		\item {[G5]} Allow a passenger to enable the taxi sharing option and create/join a shared ride.
 			\begin{itemize}
 				\item {[R1]} The system won't grant access to this functionality if the user is not logged in.
-				\item {[R2]} The system will provide an interface to enable the sharing option, by default this functionality will not be activated.
-				\item {[R3]} If a user wants to share a ride the system will ask him starting position, destination and leaving time of the ride, then he will wait until the taxi is full or until 10 minutes before the scheduled time for other users to join the ride and finally compute a path for the ride.
+				\item {[R2]} If a user wants to share a ride the system will ask him to enable sharing option before starting position, destination and leaving time of the ride, then he will wait until the taxi is full or until 10 minutes before the scheduled time for other users to join the ride and finally compute a path for the ride.
 				\item {[R4]} If a passenger wants to join a shared ride the system will ask him the starting position and destination he's headed, show all the possible non full rides heading in the same direction, wait for user decision and then add the user to the shared ride.
 				\item {[R5]} The system will also calculate the distance and the fee of a ride and communicate it to both passengers and driver.
 			\end{itemize}
