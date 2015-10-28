@@ -1,0 +1,59 @@
+\section{REQUIREMENTS}
+\subsection{Functional Requirements}
+By analyzing the goals we came up with a list of requirements in order to achieve them:
+	\begin{itemize}
+		\item {[G1]} Allow a visitor to register in the system and adding/managing his information.
+			\begin{itemize}
+				\item {[R1]} The system will provide a registration functionality.
+				\item {[R2]} System should check that username must be unique, there cannot be two users with the same username in the system.
+				\item {[R3]} System will not allow visitors to see other pages than the login page.
+				\item {[R4]} System will grant visitors access only to registration functionality.
+			\end{itemize}
+		\item {[G2]} Allow a user to log in to application, either he is a passenger or a taxi driver.
+			\begin{itemize}
+				\item {[R1]} The system will provide a log-in functionality.
+				\item {[R2]} System will check that the tuple username-password inserted by the user exists in the database.
+			\end{itemize}
+		\item {[G3]} Allow a passenger to make a request for a taxi.
+	\begin{itemize}
+		\item {[R1]} The system will not grant access to this functionality if the user is not logged in.
+		\item {[R2]} The system will forward a taxi request to a driver only if:
+		\begin{itemize}
+			\item The passenger provides a valid location for a taxi.
+			\item Passenger is not waiting for another taxi called by a previous request.
+			\item Passenger does not have a reserved ride occuring within thirty minutes.
+		\end{itemize}
+	\end{itemize}
+		\item {[G4]} Allow a passenger to make a reservation for a taxi.
+			\begin{itemize}
+				\item {[R1]} The system won't grant access to this functionality if the user is not logged in.
+				\item {[R2]} The system will accept the reservation if the passenger: 
+				\begin{itemize}
+					\item Specifies starting position, destination and leaving time of the ride
+					\item Completes the reservation two hours before the ride occurs.
+					\item Did not make a reservation for a ride that occurs thirty minutes before or after the requested time.					
+				\end{itemize}
+				\item {[R3]} If the reservation is succesful the system will call for a taxi 10 minutes before the scheduled time and send a notification to the passenger.
+			\end{itemize}
+		\item {[G5]} Allow a passenger to enable the taxi sharing option and create/join a shared ride.
+			\begin{itemize}
+				\item {[R1]} The system won't grant access to this functionality if the user is not logged in.
+				\item {[R2]} If a user wants to share a ride the system will ask him to enable sharing option before starting position, destination and leaving time of the ride, then he will wait until the taxi is full or until 10 minutes before the scheduled time for other users to join the ride and finally compute a path for the ride.
+				\item {[R4]} If a passenger wants to join a shared ride the system will ask him the starting position and destination he's headed, show all the possible non full rides heading in the same direction, wait for user decision and then add the user to the shared ride.
+				\item {[R5]} The system will also calculate the distance and the fee of a ride and communicate it to both passengers and driver.
+			\end{itemize}
+		\item {[G6]} Allow a passenger to cancel a reservation.
+			\begin{itemize}
+				\item {[R1]} System will not allow a passenger to cancel a ride if it will occur in less than thirty minutes.
+			\end{itemize}
+		\item {[G7]} Allow a user to disable taxi sharing option and cancel or leave a shared ride.
+			\begin{itemize}
+				\item {[R1]} The system will permit the user to disable the taxi sharing option via the same interface used to enable it.
+				\item {[R2]} The system will reject a cancel request of a shared ride if someone has already joined it.
+				\item {[R3]} The system will not allow a passenger to leave a shared ride if it will occur in less than thirty minutes.
+			\end{itemize}
+		\item {[G7]} Allow a taxi driver to set his availability.
+		\item {[G8]} Allow a taxi driver to accept or refuse a call for a taxi-request from the system.
+		\item {[G9]} Allow a taxi driver to accept or refuse a reservation.
+		\item {[G10]} Provide a fair management of taxi queues.
+	\end{itemize}

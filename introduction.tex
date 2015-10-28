@@ -1,0 +1,83 @@
+
+\section{INTRODUCTION}
+\subsection{Description of the given problem}
+
+We will project My Taxi Service, an online service that will provide passengers an easy and reliable way to access taxi service, while allowing taxi drivers to organize themselves and make their job simple.
+
+There will be two types of users: passengers and taxi drivers.
+
+Passengers who wants to access the service should register in the system by providing information like name, address, phone number and e-mail. 
+Once registered passengers will be able to: 
+\begin{itemize}
+	\item Request a taxi by specifying a valid location, the system will confirm the request by sending the user a code;
+	\item Make a reservation for a taxi, in this case the passenger must provide the destination too, the reservation must be done at least 2 hours before the ride. If the reservation is succesful the system will start searching for a taxi ten minutes before the meeting time.
+	\item Enable taxi sharing option, meaning that he wants to share the ride with others and thus the cost of the ride. When making a reservation the user can decide to share the ride. Other passengers decide to join the ride the system will create a path for a taxi.
+\end{itemize}
+
+To taxi drivers will be provided a different account with differents functionalities. They will be able to set their avalaibility, if they are available the system can call them to go to a specified location to pick up a passenger, a call that drivers can accept or refuse.
+
+The system will optimize taxi queues by dividing the city in different zones of 2 km square size, and will assign to each zone a certain number of taxis organized in a queue. Each request is forwarded to the first taxi in the queue associated to the zone from which the request come.
+
+\subsection{Actors}
+	\begin{itemize}
+		\item Visitor: a non registered user can only see the main page, log-in page and registration page. He can register himself by the compilation of the registration form.
+		\item Passenger: a passenger has already an account, he can log-in in the system. After that he can call for a taxi using the apposite form.
+		\item Taxi-Driver: a taxi driver has an account provided by the company. From this account he can manage his profile, set his availability, accept or refuse a call from the system. 
+	\end{itemize}
+
+\subsection{Goals}
+	Here's the list of the goals of our application
+	\begin{itemize}
+		\item {[G1]} Allow a visitor to register in the system and adding/managing his information.
+		\item {[G2]} Allow a user to log in to application, either he is a passenger or a taxi driver.
+		\item {[G3]} Allow a passenger to make a request for a taxi.
+		\item {[G4]} Allow a passenger to make a reservation for a taxi.
+		\item {[G5]} Allow a passenger to enable the taxi sharing option and create a shared ride.
+		\item {[G6]} Allow a passenger to cancel a request or reservation for a taxi or disabling the taxi sharing option.
+		\item {[G7]} Allow a taxi driver to set his availability.
+		\item {[G8]} Allow a taxi driver to accept a call for a taxi-request from the system.
+		\item {[G9]} Allow a taxi driver to refuse a call for a taxi-request from the system.
+		\item {[G10]} Provide a fair management of taxi queues.
+	\end{itemize}
+
+\subsection{Glossary}
+We will give a specific definition of some crucial terms that we are going to often use in our documentation of the project to prevent some ambiguity of the natural language.
+
+\begin{description}
+	\item[Visitor] Every person that visits the website or downloads the application before registration. Registered users are seen as Visitors before the login.
+	\item[Users] Every single person registered in the Database of the service. It includes Passengers and Drivers
+	\item[Passengers] Clients registered in the database, they can only request a taxi and reserve one.  
+	\item[Drivers]	Taxi Owners registered in the database, they can set their availability depending on their needs and answer or refuse calls from the system.
+	\item[Request] When a Passenger uses the service to find a ride, he makes a Request. He must insert where he needs to go. The Request is sent to the available drivers who can accept or refuse it. It's the 			interaction that connects passenger and driver. 
+	\item[Reservation] When a passenger uses the service to reserve a taxi so he's sure that the taxi will be available when he will need it.
+	
+\end{description}
+
+\subsection{Domain Properties}
+We suppose that -----andreciao----
+\begin{itemize}
+	\item Once a request is done, it cannot be deleted.
+	\item If a passenger makes a request and the request is accepted, he will show up at the established location in time.
+	\item If a driver accepts a request, he will show up at the established location in time.
+	\item If a passenger joins a shared ride, he will take part to the ride.
+	\item A passenger will not ask for a taxi in any way at a certain time if he knows there will be a conflict in schedules.
+\end{itemize}
+
+\subsection{Assumptions}
+\begin{itemize}
+	\item Users cannnot have more than one request open at the same time.
+	\item Users can't create or join more than one shared ride at the sime time.
+	\item Reservations must be done at least two hours before the ride.
+	\item Users cannot make requests if a reserved ride is taking place within 30 minutes.
+	\item Reservations can be cancelled at most 30 minutes before the scheduled time.
+	\item There will be a notification by e-mail or sms and through the application 10 minutes before a reserved ride.
+	\item There will be a notification sent to  the current members of a shared ride when a new passenger joins the ride.
+	\item Every taxi has an attribute that shows the maximum capacity of the vehicle.
+\end{itemize}
+
+\subsection{Identifying Stakeholders}
+
+--da vedere. possibili stakeholders: - grosse compagnie di taxi in una città ed il governo di una determinata città.
+
+\subsection{Proposed System}
+The application we will project can be implemented as an enterprise application based on the web, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.	
