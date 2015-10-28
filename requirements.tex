@@ -5,7 +5,7 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 		\item {[G1]} Allow a visitor to register in the system and adding/managing his information.
 			\begin{itemize}
 				\item {[R1]} The system will provide a registration functionality.
-				\item {[R2]} System should check that username must be unique, there cannot be two users with the same username in the system.
+				\item {[R2]} System should check that user name must be unique, there cannot be two users with the same user name in the system.
 				\item {[R3]} System will not allow visitors to see other pages than the login page.
 				\item {[R4]} System will grant visitors access only to registration functionality.
 			\end{itemize}
@@ -21,10 +21,10 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 		\begin{itemize}
 			\item The passenger provides a valid location for a taxi.
 			\item Passenger is not waiting for another taxi called by a previous request.
-			\item Passenger does not have a reserved ride occuring within thirty minutes.
+			\item Passenger does not have a reserved ride occurring within thirty minutes.
 		\end{itemize}
 	\end{itemize}
-		\item {[G4]} Allow a passenger to make a reservation for a taxi.
+		\item {[G4]} Allow a passenger to make a reservation for a taxi and share the ride if he wants.
 			\begin{itemize}
 				\item {[R1]} The system won't grant access to this functionality if the user is not logged in.
 				\item {[R2]} The system will accept the reservation if the passenger: 
@@ -33,27 +33,31 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 					\item Completes the reservation two hours before the ride occurs.
 					\item Did not make a reservation for a ride that occurs thirty minutes before or after the requested time.					
 				\end{itemize}
-				\item {[R3]} If the reservation is succesful the system will call for a taxi 10 minutes before the scheduled time and send a notification to the passenger.
+				\item {[R3]} If a user wants to share a ride the system will permit him to enable sharing option at the moment of the reservation, then wait until the taxi is full or until 10 minutes before the scheduled time for other users to join the ride and finally compute a path for the ride.
+				\item {[R4]} If the reservation is successful the system will call for a taxi via a normal request 10 minutes before the scheduled time, send a notification to the passenger, calculate the length and the cost of the ride and communicate it to all participants and to the taxi driver as well.
 			\end{itemize}
-		\item {[G5]} Allow a passenger to enable the taxi sharing option and create/join a shared ride.
+		\item {[G5]} Allow a passenger to join a shared ride.
 			\begin{itemize}
 				\item {[R1]} The system won't grant access to this functionality if the user is not logged in.
-				\item {[R2]} If a user wants to share a ride the system will ask him to enable sharing option before starting position, destination and leaving time of the ride, then he will wait until the taxi is full or until 10 minutes before the scheduled time for other users to join the ride and finally compute a path for the ride.
-				\item {[R4]} If a passenger wants to join a shared ride the system will ask him the starting position and destination he's headed, show all the possible non full rides heading in the same direction, wait for user decision and then add the user to the shared ride.
-				\item {[R5]} The system will also calculate the distance and the fee of a ride and communicate it to both passengers and driver.
+				\item {[R2]} If a passenger wants to join a shared ride the system will ask him the starting position and destination he's headed, show all the possible non full rides heading in the same direction, wait for user decision and then add the user to the shared ride.
 			\end{itemize}
-		\item {[G6]} Allow a passenger to cancel a reservation.
+		\item {[G6]} Allow a passenger to cancel a reservation/shared ride.
 			\begin{itemize}
 				\item {[R1]} System will not allow a passenger to cancel a ride if it will occur in less than thirty minutes.
-			\end{itemize}
-		\item {[G7]} Allow a user to disable taxi sharing option and cancel or leave a shared ride.
-			\begin{itemize}
-				\item {[R1]} The system will permit the user to disable the taxi sharing option via the same interface used to enable it.
 				\item {[R2]} The system will reject a cancel request of a shared ride if someone has already joined it.
-				\item {[R3]} The system will not allow a passenger to leave a shared ride if it will occur in less than thirty minutes.
+			\end{itemize}
+		\item {[G7]} Allow a user to leave a shared ride.
+			\begin{itemize}
+				\item {[R1]} The system will allow a passenger to leave a shared ride if it won't occur within fifteen minutes.
 			\end{itemize}
 		\item {[G7]} Allow a taxi driver to set his availability.
+			\item {[R1]} System will provide an interface to taxi drivers where they can notify the system that they are able to take care of a request.
 		\item {[G8]} Allow a taxi driver to accept or refuse a call for a taxi-request from the system.
-		\item {[G9]} Allow a taxi driver to accept or refuse a reservation.
-		\item {[G10]} Provide a fair management of taxi queues.
-	\end{itemize}
+			\item {[R1]} When a request occur the system will show a screen to the driver in which he can accept or refuse the call.
+		\item {[G9]} Provide a fair management of taxi queues.
+			\begin{itemize}
+				\item {[R1]} The system will divide the city in zones of two squared kilometers and will assign to each of them a certain number of taxis organized in a queue.
+				\item {[R2]} The system knows at every time which taxis are assigned to a zone by using a gps system installed on the vehicles.
+				\item {[R3]} When a request arrive from a zone the system will call the first taxi in the queue associated to that zone.
+			\end{itemize}
+		\end{itemize}
