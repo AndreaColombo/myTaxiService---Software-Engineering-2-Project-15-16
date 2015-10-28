@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  28 OCT 2015 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  28 OCT 2015 11:50
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -273,10 +273,10 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no   in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no   in font cmr12!
- [5]) (requirements.tex [6
+) [5] (requirements.tex [6
 
 
-] [7] [8])
+] [7]) [8]
 (scenario.tex) [9
 
 
@@ -302,8 +302,8 @@ Package rerunfilecheck Info: File `Rasd.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 42.
  ) 
 Here is how much of TeX's memory you used:
- 5126 strings out of 493673
- 75792 string characters out of 3141532
+ 5128 strings out of 493673
+ 75804 string characters out of 3141532
  161003 words of memory out of 3000000
  8378 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
@@ -313,9 +313,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (14 pages, 123709 bytes).
+Output written on Rasd.pdf (14 pages, 124027 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 214 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
  198 words of extra memory for PDF output out of 10000 (max. 10000000)
 

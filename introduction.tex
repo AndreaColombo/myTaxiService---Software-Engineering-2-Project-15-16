@@ -10,11 +10,11 @@ Passengers who wants to access the service should register in the system by prov
 Once registered passengers will be able to: 
 \begin{itemize}
 	\item Request a taxi by specifying a valid location, the system will confirm the request by sending the user a code;
-	\item Make a reservation for a taxi, in this case the passenger must provide the destination too, the reservation must be done at least 2 hours before the ride. If the reservation is succesful the system will start searching for a taxi ten minutes before the meeting time.
+	\item Make a reservation for a taxi, in this case the passenger must provide the destination too, the reservation must be done at least 2 hours before the ride. If the reservation is successful the system will start searching for a taxi ten minutes before the meeting time.
 	\item Enable taxi sharing option, meaning that he wants to share the ride with others and thus the cost of the ride. When making a reservation the user can decide to share the ride. Other passengers decide to join the ride the system will create a path for a taxi.
 \end{itemize}
 
-To taxi drivers will be provided a different account with differents functionalities. They will be able to set their avalaibility, if they are available the system can call them to go to a specified location to pick up a passenger, a call that drivers can accept or refuse.
+To taxi drivers will be provided a different account with different functionalities. They will be able to set their availability, if they are available the system can call them to go to a specified location to pick up a passenger, a call that drivers can accept or refuse.
 
 The system will optimize taxi queues by dividing the city in different zones of 2 km square size, and will assign to each zone a certain number of taxis organized in a queue. Each request is forwarded to the first taxi in the queue associated to the zone from which the request come.
 
@@ -65,7 +65,7 @@ We suppose that -----andreciao----
 
 \subsection{Assumptions}
 \begin{itemize}
-	\item Users cannnot have more than one request open at the same time.
+	\item Users cannot have more than one request open at the same time.
 	\item Users can't create or join more than one shared ride at the sime time.
 	\item Reservations must be done at least two hours before the ride.
 	\item Users cannot make requests if a reserved ride is taking place within 30 minutes.
@@ -77,7 +77,15 @@ We suppose that -----andreciao----
 
 \subsection{Identifying Stakeholders}
 
---da vedere. possibili stakeholders: - grosse compagnie di taxi in una città ed il governo di una determinata città.
+There are two big main Stakeholders for this project:
+\begin{enumerate}
+	\item \textbf{Public Transport Administrators} \\
+	Every city that hasn't got a good and reliable management of taxi queues is a possible stakeholder.  Cities that have got a fair management of taxi queues but without web application or application are also possible stakeholders.
+	\item \textbf{Private Taxy Companies} 
+	Big taxy companies working on one or more cities may need our system to grant a more powerful service to passengers.
+\end{enumerate}
+For all these stakeholders we need to focus on the city mapping to be able to show a project for their own city, once the queues are created the main focus will be the creation of the network and 
+/todo 
 
 \subsection{Proposed System}
 The application we will project can be implemented as an enterprise application based on the web, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.	
