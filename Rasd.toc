@@ -7,19 +7,16 @@
 \contentsline {subsection}{\numberline {1.6}Assumptions}{4}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7}Identifying Stakeholders}{5}{subsection.1.7}
 \contentsline {subsection}{\numberline {1.8}Proposed System}{5}{subsection.1.8}
-\contentsline {subsection}{\numberline {1.9}Future Possible Implementation}{5}{subsection.1.9}
-\contentsline {section}{\numberline {2}REQUIREMENTS}{6}{section.2}
-\contentsline {subsection}{\numberline {2.1}Functional Requirements}{6}{subsection.2.1}
-\contentsline {section}{\numberline {3}SCENARIO IDENTYFING}{9}{section.3}
-\contentsline {section}{\numberline {4}UML MODELS}{10}{section.4}
-\contentsline {subsection}{\numberline {4.1}Use case diagram}{10}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Usa case Description}{10}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Class Diagram}{10}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Log In}{10}{subsubsection.4.3.1}
-\contentsline {subsubsection}{\numberline {4.3.2}Reserve a taxi}{10}{subsubsection.4.3.2}
-\contentsline {subsubsection}{\numberline {4.3.3}altra roba altra roba}{10}{subsubsection.4.3.3}
-\contentsline {section}{\numberline {5}ALLOY MODELLING}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Alloy Code}{11}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Alloy Worlds}{11}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}non so cosa sia ahahahalloy}{11}{subsection.5.3}
-\contentsline {section}{\numberline {6}USED TOOLS}{12}{section.6}
+\contentsline {subsection}{\numberline {1.9}Future Possible Implementation}{6}{subsection.1.9}
+\contentsline {section}{\numberline {2}REQUIREMENTS}{7}{section.2}
+\contentsline {subsection}{\numberline {2.1}Functional Requirements}{7}{subsection.2.1}
+\contentsline {section}{\numberline {3}SCENARIO IDENTYFING}{10}{section.3}
+\contentsline {section}{\numberline {4}UML MODELS}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Use case diagram}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Usa case Description}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Class Diagram}{11}{subsection.4.3}
+\contentsline {section}{\numberline {5}ALLOY MODELLING}{12}{section.5}
+\contentsline {subsection}{\numberline {5.1}Alloy Code}{12}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Alloy Worlds}{12}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}non so cosa sia ahahahalloy}{12}{subsection.5.3}
+\contentsline {section}{\numberline {6}USED TOOLS}{13}{section.6}
