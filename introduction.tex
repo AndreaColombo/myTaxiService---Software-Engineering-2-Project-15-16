@@ -31,12 +31,12 @@ The system will optimize taxi queues by dividing the city in different zones of 
 		\item {[G1]} Allow a visitor to register in the system and adding/managing his information.
 		\item {[G2]} Allow a user to log in to application, either he is a passenger or a taxi driver.
 		\item {[G3]} Allow a passenger to make a request for a taxi.
-		\item {[G4]} Allow a passenger to make a reservation for a taxi.
-		\item {[G5]} Allow a passenger to enable the taxi sharing option and create a shared ride.
-		\item {[G6]} Allow a passenger to cancel a request or reservation for a taxi or disabling the taxi sharing option.
-		\item {[G7]} Allow a taxi driver to set his availability.
-		\item {[G8]} Allow a taxi driver to accept a call for a taxi-request from the system.
-		\item {[G9]} Allow a taxi driver to refuse a call for a taxi-request from the system.
+		\item {[G4]} Allow a passenger to make a reservation for a taxi and share the ride if he wants.
+		\item {[G5]} Allow a passenger to join a shared ride.
+		\item {[G6]} Allow a passenger to cancel a reservation/shared ride.
+		\item {[G7]} Allow a user to leave a shared ride.
+		\item {[G8]} Allow a user to leave a shared ride.
+		\item {[G9]} Allow a taxi driver to accept or refuse a call for a taxi-request from the system.
 		\item {[G10]} Provide a fair management of taxi queues.
 	\end{itemize}
 
@@ -74,6 +74,7 @@ We suppose that -----andreciao----
 	\item Shared rides are reservations with the sharing option active.
 	\item Every taxi has an attribute that shows the maximum capacity of the vehicle.
 	\item A taxi will be placed in queue associated to a zone only if his driver notified the system he is available.
+	\item A driver will be associated to only one taxi, this means that a taxi can't be driven by two different drivers.
 	
 \end{itemize}
 
