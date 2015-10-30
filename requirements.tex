@@ -51,9 +51,13 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 				\item {[R1]} The system will allow a passenger to leave a shared ride if it won't occur within fifteen minutes.
 			\end{itemize}
 		\item {[G8]} Allow a taxi driver to set his availability.
-			\item {[R1]} System will provide an interface to taxi drivers where they can notify the system that they are able to take care of a request.
+			\begin{itemize}
+				\item {[R1]} System will provide an interface to taxi drivers where they can notify the system that they are able to take care of a request.
+			\end{itemize}
 		\item {[G9]} Allow a taxi driver to accept or refuse a call for a taxi-request from the system.
-			\item {[R1]} When a request occur the system will show a screen to the driver in which he can accept or refuse the call.
+			\begin{itemize}
+				\item {[R1]} When a request occur the system will show a screen to the driver in which he can accept or refuse the call.
+			\end{itemize}
 		\item {[G10]} Provide a fair management of taxi queues.
 			\begin{itemize}
 				\item {[R1]} The system will divide the city in zones of two squared kilometers and will assign to each of them a certain number of taxis organized in a queue.
@@ -62,3 +66,12 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 				\item {[R4]} If a taxi refuse a request the system will place it at the and of the queue and forward the request to the second tax in the queue.
 			\end{itemize}
 		\end{itemize}
+\newpage
+\subsection{Non Functional Requirements}
+	\subsubsection{Performance Requirements} Performance should be high to guarantee usability knowing that there will be a lot of real time request and computation. We assume that the response time of application is close to zero so the speed of the whole system depends only on user's internet connection.
+	\subsubsection{Software System Characteristics}
+		\paragraph{Availability} Everyone should be able to access the application online everytime, this means that a dedicated server could be necessary.
+		\paragraph {Maintainability} The application will be accurately documented to help future developers in maintain and apply changes to the code.
+		\paragraph{Portability} The application should be compatible to all major hardware and software platform present on the market.
+		\paragraph{User friendliness} The application does not expect an expert user so the interface will be simple and intuitive.	
+	\subsubsection{Data integrity, consistency and availability} The data should be always accessible. They should also be duplicated in case of a system fault to prevent data losses.
