@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  30 OCT 2015 18:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  2 NOV 2015 15:26
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -182,8 +182,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 12.
 
-(Rasd.aux (introduction.aux) (requirements.aux) (scenario.aux) (uml.aux)
-(alloy.aux) (tools.aux))
+(Rasd.aux (introduction.aux) (Overall_description.aux) (requirements.aux)
+(scenario.aux) (uml.aux) (alloy.aux) (tools.aux))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
@@ -238,7 +238,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 
 (Rasd.out) (Rasd.out)
 \@outlinefile=\write3
- <Images/polimi_logo.jpg, id=103, 240.9pt x 240.9pt>
+ <Images/polimi_logo.jpg, id=107, 240.9pt x 240.9pt>
 File: Images/polimi_logo.jpg Graphic file (type jpg)
 
 <use Images/polimi_logo.jpg>
@@ -280,7 +280,11 @@ been already used, duplicate ignored
 l.26 	\end{itemize}
                     [2
 
-] [3] [4]) [5] [6] (requirements.tex
+] [3]) [4] (Overall_description.tex [5
+
+
+]) [6]
+(requirements.tex
 Overfull \hbox (0.9489pt too wide) in paragraph at lines 24--25
 []\OT1/cmr/m/n/12 Passenger does not have a re-served ride oc-cur-ring within t
 hirty
@@ -293,7 +297,7 @@ hirty
 
 
 ] (uml.tex
-<Images/class_diagram.jpg, id=193, 854.19125pt x 685.56125pt>
+<Images/class_diagram.jpg, id=197, 854.19125pt x 685.56125pt>
 File: Images/class_diagram.jpg Graphic file (type jpg)
 
 <use Images/class_diagram.jpg>
@@ -314,39 +318,31 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 8--9
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
- (Rasd.aux (introduction.aux) (requirements.aux) (scenario.aux) (uml.aux) (allo
-y.aux)
-(tools.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
-
-
-Package rerunfilecheck Warning: File `Rasd.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rasd.out':
-(rerunfilecheck)             Before: 1C7F04043655D7838080AD6978E4B3C0;1631
-(rerunfilecheck)             After:  F75666F13C095F98AEF9035BE3389F1A;1736.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
+ (Rasd.aux (introduction.aux) (Overall_description.aux) (requirements.aux) (sce
+nario.aux) (uml.aux) (alloy.aux) (tools.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
+Package rerunfilecheck Info: File `Rasd.out' has not changed.
+(rerunfilecheck)             Checksum: 074C3A9B297F58288A8A650BE2A1D402;1711.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5413 strings out of 493698
- 79173 string characters out of 3144382
- 165784 words of memory out of 3000000
- 8629 multiletter control sequences out of 15000+200000
+ 5422 strings out of 493698
+ 79363 string characters out of 3144382
+ 166092 words of memory out of 3000000
+ 8631 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,6n,33p,432b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 29i,6n,33p,442b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (16 pages, 196061 bytes).
+Output written on Rasd.pdf (16 pages, 196280 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
+ 237 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
- 211 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 words of extra memory for PDF output out of 10000 (max. 10000000)
 
