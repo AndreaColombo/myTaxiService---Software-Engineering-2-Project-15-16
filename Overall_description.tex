@@ -1,31 +1,38 @@
 \section{Overall Description}
 
 \subsection{Domain Properties}
-We suppose that -----andreciao----
-\begin{itemize}
-	\item Once a request is done, it cannot be deleted.
-	\item If a passenger makes a request and the request is accepted, he will show up at the established location in time.
-	\item If a driver accepts a request, he will show up at the established location in time.
-	\item If a passenger joins a shared ride, he will take part to the ride.
-	\item A passenger will not ask for a taxi in any way at a certain time if he knows there will be a conflict in schedules.
+We suppose that the following properties hold in the analysed domain:
+	\begin{itemize}
+		\item Once a request is done, it cannot be deleted.
+		\item If a passenger makes a request and the request is accepted, he will show up at the established location in time.
+		\item If a driver accepts a request, he will show up at the established location in time.
+		\item If a passenger joins a shared ride, he will take part to the ride.
+		\item A passenger will not ask for a taxi in any way at a certain time if he knows there will be a conflict in schedules.
 	\end{itemize}
 	
-	\subsection{Assumptions}
+\subsection{Assumptions}
 	\begin{itemize}
 		\item Users cannot have more than one request open at the same time.
 		\item Reservations must be done at least two hours before the ride.
 		\item Users cannot make requests if a reserved ride is taking place within 30 minutes.
-		\item Reservations can be cancelled at most 30 minutes before the scheduled time.
+		\item Reservations can be canceled at most 30 minutes before the scheduled time.
 		\item There will be a notification by e-mail and through the application 10 minutes before a reserved ride, when the server makes the request for him/them.
 		\item There will be a notification sent to  the current members of a shared ride when a new passenger joins the ride.
 		\item Shared rides are reservations with the sharing option active.
 		\item Every taxi has an attribute that shows the maximum capacity of the vehicle.
 		\item A taxi will be placed in queue associated to a zone only if his driver notified the system he is available.
 		\item A driver will be associated to only one taxi, this means that a taxi can't be driven by two different drivers.
-		
-		\end{itemize}
+		\item A driver that picks up a passenger in the normal way will set off his availability.
+	\end{itemize}
 	
-			
-			\subsection{Proposed System}
-			The application we will project can be implemented as an enterprise application based on the web, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.	
+\subsection{Product Function}
+	\begin{description}
+		\item [User Registration] A normal user will register to the system by inserting username, e-mail and password.
+		\item [Taxi driver registration] There will be a registration functionality only for taxi driver's account, the registration will be done by the driver's employer company, then they will give the credentials to the driver so he can log-in.
+		\item [Sharing System] The shared ride will follow a route composed by the system, the route will contain all the position where the passengers will be picked up and all their destination.
+		\item [Log-in system] The login system will be the same for all the users but there will be different functionalities once logged in based on the account type: passenger or driver
+	\end{description}
+		
+\subsection{Proposed System}
+	The application we will project can be implemented as an enterprise application based on the web, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.	
 			
