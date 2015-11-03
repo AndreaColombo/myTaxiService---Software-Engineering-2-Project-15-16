@@ -19,10 +19,11 @@
 \BOOKMARK [1][-]{section.4}{SCENARIO IDENTIFYING}{}% 19
 \BOOKMARK [1][-]{section.5}{UML MODELS}{}% 20
 \BOOKMARK [2][-]{subsection.5.1}{Use case diagram}{section.5}% 21
-\BOOKMARK [2][-]{subsection.5.2}{Use case Description}{section.5}% 22
+\BOOKMARK [2][-]{subsection.5.2}{Use case Description and sequence diagram}{section.5}% 22
 \BOOKMARK [2][-]{subsection.5.3}{Class Diagram}{section.5}% 23
-\BOOKMARK [1][-]{section.6}{ALLOY MODELLING}{}% 24
-\BOOKMARK [2][-]{subsection.6.1}{Alloy Code}{section.6}% 25
-\BOOKMARK [2][-]{subsection.6.2}{Alloy Worlds}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.3}{non so cosa sia ahahahalloy}{section.6}% 27
-\BOOKMARK [1][-]{section.7}{USED TOOLS}{}% 28
+\BOOKMARK [2][-]{subsection.5.4}{State chart diagram}{section.5}% 24
+\BOOKMARK [1][-]{section.6}{ALLOY MODELLING}{}% 25
+\BOOKMARK [2][-]{subsection.6.1}{Alloy Code}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.2}{Alloy Worlds}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.3}{non so cosa sia ahahahalloy}{section.6}% 28
+\BOOKMARK [1][-]{section.7}{USED TOOLS}{}% 29

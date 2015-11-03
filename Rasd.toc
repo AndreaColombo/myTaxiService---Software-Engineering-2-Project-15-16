@@ -23,10 +23,11 @@
 \contentsline {section}{\numberline {4}SCENARIO IDENTIFYING}{11}{section.4}
 \contentsline {section}{\numberline {5}UML MODELS}{13}{section.5}
 \contentsline {subsection}{\numberline {5.1}Use case diagram}{13}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Use case Description}{13}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.2}Use case Description and sequence diagram}{13}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Class Diagram}{13}{subsection.5.3}
-\contentsline {section}{\numberline {6}ALLOY MODELLING}{14}{section.6}
-\contentsline {subsection}{\numberline {6.1}Alloy Code}{14}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{14}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{14}{subsection.6.3}
-\contentsline {section}{\numberline {7}USED TOOLS}{15}{section.7}
+\contentsline {subsection}{\numberline {5.4}State chart diagram}{14}{subsection.5.4}
+\contentsline {section}{\numberline {6}ALLOY MODELLING}{15}{section.6}
+\contentsline {subsection}{\numberline {6.1}Alloy Code}{15}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{15}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{15}{subsection.6.3}
+\contentsline {section}{\numberline {7}USED TOOLS}{16}{section.7}
