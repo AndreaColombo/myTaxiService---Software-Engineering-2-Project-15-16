@@ -64,7 +64,7 @@ By analyzing the goals we came up with a list of requirements in order to achiev
 			\begin{itemize}
 				\item {[R1]} The system will divide the city in zones of two squared kilometers and will assign to each of them a certain number of taxis organized in a queue.
 				\item {[R2]} The system knows at every time which taxis are assigned to a zone by using a gps system installed on the vehicles.
-				\item {[R3]} When a request arrive from a zone the system will call the first taxi in the queue associated to that zone.
+				\item {[R3]} When a request arrive from a zone the system will call the first taxi in the queue associated to that zone, the system will never skip to the second position in the queue.
 				\item {[R4]} If a taxi refuse a request the system will place it at the and of the queue and forward the request to the second tax in the queue.
 			\end{itemize}
 		\end{itemize}
