@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 13:41
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -334,29 +334,42 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 22--23
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-) [16 <./Images/Request.jpg> <./Images/reservation.jpg>] (alloy.tex) [17
+[16 <./Images/Request.jpg> <./Images/reservation.jpg>]
+<Images/taxidriver_statechart.jpg, id=269, 822.07124pt x 498.86375pt>
+File: Images/taxidriver_statechart.jpg Graphic file (type jpg)
+
+<use Images/taxidriver_statechart.jpg>
+Package pdftex.def Info: Images/taxidriver_statechart.jpg used on input line 28
+.
+(pdftex.def)             Requested size: 390.0pt x 236.66588pt.
+
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 28--29
+ []\OT1/cmr/m/n/12 ++[] 
+ []
+
+) [17 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [18
 
 
-]
-(tools.tex) [18
+] (tools.tex)
+[19
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 46.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
- (Rasd.aux (introduction.aux) (Overall_description.aux)
-(requirements.aux) (scenario.aux) (uml.aux) (alloy.aux) (tools.aux))
+ (Rasd.aux (introduction.aux) (Overall_description.aux) (requirements.aux)
+(scenario.aux) (uml.aux) (alloy.aux) (tools.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Rasd.out' has not changed.
-(rerunfilecheck)             Checksum: 095806E6133F5F32BB1FFF3C7B776135;2317.
+(rerunfilecheck)             Checksum: 1884FBE68173DE6A29DC550B16D0BDE3;2321.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5461 strings out of 493698
- 79941 string characters out of 3144382
+ 5468 strings out of 493698
+ 80127 string characters out of 3144382
  168095 words of memory out of 3000000
- 8647 multiletter control sequences out of 15000+200000
+ 8651 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,7n,33p,1213b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -364,9 +377,9 @@ Here is how much of TeX's memory you used:
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (20 pages, 297344 bytes).
+Output written on Rasd.pdf (21 pages, 329054 bytes).
 PDF statistics:
- 309 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 315 PDF objects out of 1000 (max. 8388607)
+ 70 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 

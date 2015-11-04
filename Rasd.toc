@@ -15,7 +15,7 @@
 \contentsline {subsection}{\numberline {2.5}Domain Properties}{7}{subsection.2.5}
 \contentsline {subsection}{\numberline {2.6}Assumptions}{7}{subsection.2.6}
 \contentsline {section}{\numberline {3}REQUIREMENTS}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}User Interfaces}{9}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.1}External Interfaces}{9}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Functional Requirements}{9}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Non Functional Requirements}{12}{subsection.3.3}
 \contentsline {subsubsection}{\numberline {3.3.1}Performance Requirements}{12}{subsubsection.3.3.1}
@@ -31,8 +31,8 @@
 \contentsline {subsection}{\numberline {5.2}Use case Description and sequence diagram}{15}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Class Diagram}{15}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}State chart diagram}{16}{subsection.5.4}
-\contentsline {section}{\numberline {6}ALLOY MODELLING}{17}{section.6}
-\contentsline {subsection}{\numberline {6.1}Alloy Code}{17}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{17}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{17}{subsection.6.3}
-\contentsline {section}{\numberline {7}USED TOOLS}{18}{section.7}
+\contentsline {section}{\numberline {6}ALLOY MODELLING}{18}{section.6}
+\contentsline {subsection}{\numberline {6.1}Alloy Code}{18}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{18}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{18}{subsection.6.3}
+\contentsline {section}{\numberline {7}USED TOOLS}{19}{section.7}
