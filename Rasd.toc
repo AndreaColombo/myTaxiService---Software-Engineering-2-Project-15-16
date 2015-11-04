@@ -5,29 +5,34 @@
 \contentsline {subsection}{\numberline {1.4}Glossary}{3}{subsection.1.4}
 \contentsline {subsection}{\numberline {1.5}Identifying Stakeholders}{4}{subsection.1.5}
 \contentsline {section}{\numberline {2}Overall Description}{5}{section.2}
-\contentsline {subsection}{\numberline {2.1}Domain Properties}{5}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Assumptions}{5}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Product Function}{6}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Proposed System}{6}{subsection.2.4}
-\contentsline {section}{\numberline {3}REQUIREMENTS}{7}{section.3}
-\contentsline {subsection}{\numberline {3.1}User Interfaces}{7}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Functional Requirements}{7}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Non Functional Requirements}{10}{subsection.3.3}
-\contentsline {subsubsection}{\numberline {3.3.1}Performance Requirements}{10}{subsubsection.3.3.1}
-\contentsline {subsubsection}{\numberline {3.3.2}Software System Characteristics}{10}{subsubsection.3.3.2}
-\contentsline {paragraph}{\numberline {3.3.2.1}Availability}{10}{paragraph.3.3.2.1}
-\contentsline {paragraph}{\numberline {3.3.2.2}Maintainability}{10}{paragraph.3.3.2.2}
-\contentsline {paragraph}{\numberline {3.3.2.3}Portability}{10}{paragraph.3.3.2.3}
-\contentsline {paragraph}{\numberline {3.3.2.4}User friendliness}{10}{paragraph.3.3.2.4}
-\contentsline {subsubsection}{\numberline {3.3.3}Data integrity, consistency and availability}{10}{subsubsection.3.3.3}
-\contentsline {section}{\numberline {4}SCENARIO IDENTIFYING}{11}{section.4}
-\contentsline {section}{\numberline {5}UML MODELS}{13}{section.5}
-\contentsline {subsection}{\numberline {5.1}Use case diagram}{13}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Use case Description and sequence diagram}{13}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Class Diagram}{13}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}State chart diagram}{14}{subsection.5.4}
-\contentsline {section}{\numberline {6}ALLOY MODELLING}{15}{section.6}
-\contentsline {subsection}{\numberline {6.1}Alloy Code}{15}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{15}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{15}{subsection.6.3}
-\contentsline {section}{\numberline {7}USED TOOLS}{16}{section.7}
+\contentsline {subsection}{\numberline {2.1}Product Perspective}{5}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Hardware Interfaces}{5}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Software Interface}{5}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Communication Interfaces}{5}{subsubsection.2.1.3}
+\contentsline {subsection}{\numberline {2.2}Product Function}{5}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}User Characteristics}{6}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Constraints}{6}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.5}Domain Properties}{6}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.6}Assumptions}{6}{subsection.2.6}
+\contentsline {section}{\numberline {3}REQUIREMENTS}{8}{section.3}
+\contentsline {subsection}{\numberline {3.1}User Interfaces}{8}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Functional Requirements}{8}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Non Functional Requirements}{11}{subsection.3.3}
+\contentsline {subsubsection}{\numberline {3.3.1}Performance Requirements}{11}{subsubsection.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.2}Software System Characteristics}{11}{subsubsection.3.3.2}
+\contentsline {paragraph}{\numberline {3.3.2.1}Availability}{11}{paragraph.3.3.2.1}
+\contentsline {paragraph}{\numberline {3.3.2.2}Maintainability}{11}{paragraph.3.3.2.2}
+\contentsline {paragraph}{\numberline {3.3.2.3}Portability}{11}{paragraph.3.3.2.3}
+\contentsline {paragraph}{\numberline {3.3.2.4}User friendliness}{11}{paragraph.3.3.2.4}
+\contentsline {subsubsection}{\numberline {3.3.3}Data integrity, consistency and availability}{11}{subsubsection.3.3.3}
+\contentsline {section}{\numberline {4}SCENARIO IDENTIFYING}{12}{section.4}
+\contentsline {section}{\numberline {5}UML MODELS}{14}{section.5}
+\contentsline {subsection}{\numberline {5.1}Use case diagram}{14}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Use case Description and sequence diagram}{14}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Class Diagram}{14}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}State chart diagram}{15}{subsection.5.4}
+\contentsline {section}{\numberline {6}ALLOY MODELLING}{16}{section.6}
+\contentsline {subsection}{\numberline {6.1}Alloy Code}{16}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{16}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{16}{subsection.6.3}
+\contentsline {section}{\numberline {7}USED TOOLS}{17}{section.7}
