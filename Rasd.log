@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 13:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 14:03
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -281,7 +281,65 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [3
 
 ] [4]) [5]
-(Overall_description.tex [6
+(Overall_description.tex
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no ¢ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+
+Overfull \hbox (3.88371pt too wide) in paragraph at lines 28--43
+\OT1/cmr/m/n/12 Man-age-ment Sys-tem (DBMS):  Name: MySQL.  Ver-sion: 5.6.21  S
+ource:
+ []
+
+
+Overfull \hbox (59.17043pt too wide) in paragraph at lines 28--43
+\OT1/cmr/m/n/12 sion: 7  Source: http://www.oracle.com/technetwork/java/javaee/
+tech/index.html
+ []
+
+
+Overfull \hbox (81.73474pt too wide) in paragraph at lines 28--43
+\OT1/cmr/m/n/12 Ap-pli-ca-tion server:  Name: Glass-fish.  Ver-sion: 4.1.  Sour
+ce: https://glassfish.java.net/
+ []
+
+[6
 
 
 ] [7]) [8] (requirements.tex
@@ -377,7 +435,7 @@ Here is how much of TeX's memory you used:
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (21 pages, 329054 bytes).
+Output written on Rasd.pdf (21 pages, 330450 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  70 named destinations out of 1000 (max. 500000)
