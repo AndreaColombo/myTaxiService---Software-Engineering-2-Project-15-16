@@ -1,11 +1,12 @@
 \section{Overall Description}
 
 \subsection{Product Perspective}
-	The application will be released as a web application not integrated with other existing system, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.	
-	
-	\subsubsection{Hardware Interfaces}
+	The application will be released as a web application not integrated with other existing system, with a Client-Server architecture. The server will run the logic and generates web pages, a database system will be used to record information of the users. On the other side there will be several clients connecting using a web browser and a graphical user interface, or using a mobile application.
+	There will be a internal interface for administration for maintenance. 
+	The application will also provide API for future development or integration with other project.
+\subsubsection{Hardware Interfaces}
 	This project does not support any hardware interfaces.
-	\subsubsection{Software Interface}
+\subsubsection{Software Interface}
 	\begin{itemize}
 		\item {Database management system}
 			\begin{itemize}
@@ -23,25 +24,8 @@
 				\item Desktop: Any OS that supports a web browser.
 			\end{itemize}
 	\end{itemize}
-	\subsubsection{Communication Interfaces}
-		\begin{itemize}
-			\item TCP protocol for communicating to DBMS and http/https.Database Management System (DBMS):
-			– Name: MySQL.
-			– Version: 5.6.21
-			– Source: http://www.mysql.it/
-			• Java Virtual Machine (JVM).
-			– Name: JEE
-			– Version: 7
-			– Source: http://www.oracle.com/technetwork/java/javaee/tech/index.html
-			• Application server:
-			– Name: Glassfish.
-			– Version: 4.1.
-			– Source: https://glassfish.java.net/
-			• Operating System (OS).
-			– Application must be able to run on any SO which supports JVM and
-			DBMS specified before.
-		\end{itemize}
-		
+\subsubsection{Communication Interfaces}
+	TCP protocol for communicating to DBMS and http/https.			
 \subsection{Product Function}
 	\begin{description}
 		\item [User Registration] A normal user will register to the system by inserting username, e-mail and password.
@@ -50,11 +34,17 @@
 		\item [Log-in system] The login system will be the same for all the users but there will be different functionalities once logged in based on the account type: passenger or driver
 		\item [Taxi Queues Management] The system will assign each taxi to a queue associated to a zone, when receiving a request the system will always call the first taxi in the queue without skipping any driver that is available. When a driver finishes a ride he will be placed into the queue associated to his current zone.
 	\end{description}
-	
 \subsection{User Characteristics}
-
+	We expect users that need to access taxi service in an easy way. Users will need a web browser or a smartphone to use the application.	
 \subsection{Constraints}
-
+	\subsubsection{Regulator Policies }
+		My taxi service is an application developed after a directed request from the government of X, thus there should be no issues regarding regulator policies.
+	\subsubsection{Hardware Limitation}
+		My taxi service will require a internet connection fast enough to guarantee a fast response from the server.
+	\subsubsection{Interfaces with other application}
+		My taxi service doesn't need to interface to other applications.
+	\subsubsection{Parallel operation}
+		My taxi service must support parallel operations from different users that may require access to the database.
 \subsection{Domain Properties}
 We suppose that the following properties hold in the analyzed domain:
 	\begin{itemize}
@@ -64,7 +54,6 @@ We suppose that the following properties hold in the analyzed domain:
 		\item If a passenger joins a shared ride, he will take part to the ride.
 		\item A passenger will not ask for a taxi in any way at a certain time if he knows there will be a conflict in schedules.
 	\end{itemize}
-	
 \subsection{Assumptions}
 	\begin{itemize}
 		\item Users cannot have more than one request open at the same time.
@@ -80,5 +69,4 @@ We suppose that the following properties hold in the analyzed domain:
 		\item A driver that picks up a passenger in the normal way will set off his availability.
 		\item There will always be at least a taxi driver available in a queue.
 	\end{itemize}
-
-			
+	

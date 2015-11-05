@@ -1,0 +1,7 @@
+aggiungi classe coda
+
+ALLOY
+sig <- classi
+facts <- stupide cose
+assert <- requirements (non + di una request, no request se arriva il taxi etc)
+predicates <- funzioni (aggiungi taxi a coda, aggiungi utente a shared ride etc)
