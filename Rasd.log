@@ -1,12 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 14:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  5 NOV 2015 10:42
 entering extended mode
 **Rasd.tex
 (Rasd.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 68 languages loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,31 +21,31 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -53,7 +53,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip43
@@ -65,14 +65,14 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -113,25 +113,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -143,7 +143,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -168,12 +168,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -199,7 +199,7 @@ LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen114
@@ -214,20 +214,20 @@ LaTeX Font Info:    ... okay on input line 26.
 \everyMPtoPDFconversion=\toks17
 )
 \AtBeginShipoutBox=\box28
- ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 137.
+Package color Info: Driver file: pdftex.def on input line 142.
 )
 Package hyperref Info: Link coloring ON on input line 26.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count104
@@ -238,7 +238,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 
 (Rasd.out) (Rasd.out)
 \@outlinefile=\write3
- <Images/polimi_logo.jpg, id=139, 240.9pt x 240.9pt>
+ <Images/polimi_logo.jpg, id=143, 240.9pt x 240.9pt>
 File: Images/polimi_logo.jpg Graphic file (type jpg)
 
 <use Images/polimi_logo.jpg>
@@ -250,38 +250,38 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 29.
  [1
 
-{C:/Users/Andrea Colombo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./
-Images/polimi_logo.jpg>] [2] (Rasd.toc
+{C:/Users/lele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/pol
+imi_logo.jpg>] [2] (Rasd.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 2.
-)
-\tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.30 \newpage
-              [1]pdfTeX warning (ext4): destination with the same identifier (n
-ame{page.2}) has been already used, duplicate ignored
+l.39 ...{\numberline {7}USED TOOLS}{28}{section.7}
+                                                   [1])
+\tf@toc=\write4
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.30 \newpage
               [2] (introduction.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [3
 
-] [4]) [5]
-(Overall_description.tex
+] [4])
+[5] (Overall_description.tex
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no “ in font cmr12!
@@ -343,19 +343,148 @@ ce: https://glassfish.java.net/
 
 
 ] [7]) [8] (requirements.tex
-Overfull \hbox (0.9489pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/12 Passenger does not have a re-served ride oc-cur-ring within t
-hirty
+<Images/web_vis.png, id=225, 539.01375pt x 402.50375pt>
+File: Images/web_vis.png Graphic file (type png)
+
+<use Images/web_vis.png>
+Package pdftex.def Info: Images/web_vis.png used on input line 10.
+(pdftex.def)             Requested size: 409.50119pt x 305.79547pt.
+
+Overfull \hbox (19.50119pt too wide) in paragraph at lines 10--11
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--12
+
  []
 
 [9
 
 
-] [10] [11]) [12] (scenario.tex [13
+ <./Images/web_vis.png>]
+<Images/web_reg.png, id=232, 853.1875pt x 572.1375pt>
+File: Images/web_reg.png Graphic file (type png)
+ <use Images/web_reg.png>
+Package pdftex.def Info: Images/web_reg.png used on input line 16.
+(pdftex.def)             Requested size: 467.99881pt x 313.8385pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 16--17
+ [][] 
+ []
 
 
-]) [14] (uml.tex
-<Images/class_diagram.jpg, id=256, 886.31125pt x 870.25125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 13--18
+
+ []
+
+[10 <./Images/web_reg.png>]
+<Images/web_home1.png, id=238, 591.20876pt x 453.695pt>
+File: Images/web_home1.png Graphic file (type png)
+
+<use Images/web_home1.png>
+Package pdftex.def Info: Images/web_home1.png used on input line 23.
+(pdftex.def)             Requested size: 467.99881pt x 359.14894pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 23--24
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--25
+
+ []
+
+[11 <./Images/web_home1.png>]
+<Images/web_home2.png, id=245, 597.23125pt x 472.76625pt>
+File: Images/web_home2.png Graphic file (type png)
+
+<use Images/web_home2.png>
+Package pdftex.def Info: Images/web_home2.png used on input line 30.
+(pdftex.def)             Requested size: 467.99881pt x 370.47308pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 30--31
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--32
+
+ []
+
+[12 <./Images/web_home2.png>]
+<Images/web_req.png, id=251, 742.775pt x 425.59pt>
+File: Images/web_req.png Graphic file (type png)
+ <use Images/web_req.png>
+Package pdftex.def Info: Images/web_req.png used on input line 37.
+(pdftex.def)             Requested size: 467.99881pt x 268.15558pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 37--38
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--39
+
+ []
+
+[13 <./Images/web_req.png>]
+<Images/web_res1.png, id=257, 530.98375pt x 455.7025pt>
+File: Images/web_res1.png Graphic file (type png)
+
+<use Images/web_res1.png>
+Package pdftex.def Info: Images/web_res1.png used on input line 44.
+(pdftex.def)             Requested size: 467.99881pt x 401.65219pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 44--45
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--46
+
+ []
+
+[14 <./Images/web_res1.png>]
+<Images/web_res2.png, id=263, 539.01375pt x 633.36626pt>
+File: Images/web_res2.png Graphic file (type png)
+
+<use Images/web_res2.png>
+Package pdftex.def Info: Images/web_res2.png used on input line 51.
+(pdftex.def)             Requested size: 390.0pt x 458.27516pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--53
+
+ []
+
+[15 <./Images/web_res2.png>]
+<Images/web_share.png, id=269, 519.9425pt x 532.99126pt>
+File: Images/web_share.png Graphic file (type png)
+
+<use Images/web_share.png>
+Package pdftex.def Info: Images/web_share.png used on input line 58.
+(pdftex.def)             Requested size: 429.00238pt x 439.76389pt.
+
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--60
+
+ []
+
+[16 <./Images/web_share.png>]
+Overfull \hbox (0.9489pt too wide) in paragraph at lines 98--99
+[]\OT1/cmr/m/n/12 Passenger does not have a re-served ride oc-cur-ring within t
+hirty
+ []
+
+[17] [18] [19]) [20] (scenario.tex [21
+
+
+]) [22] (uml.tex
+<Images/class_diagram.jpg, id=311, 886.31125pt x 870.25125pt>
 File: Images/class_diagram.jpg Graphic file (type jpg)
 
 <use Images/class_diagram.jpg>
@@ -366,11 +495,11 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 8--9
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-[15
+[23
 
 
  <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=261, 862.22125pt x 163.61125pt>
+<Images/Request.jpg, id=317, 862.22125pt x 163.61125pt>
 File: Images/Request.jpg Graphic file (type jpg)
 
 <use Images/Request.jpg>
@@ -381,7 +510,7 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 16--17
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<Images/reservation.jpg, id=262, 1479.5275pt x 523.9575pt>
+<Images/reservation.jpg, id=318, 1479.5275pt x 523.9575pt>
 File: Images/reservation.jpg Graphic file (type jpg)
 
 <use Images/reservation.jpg>
@@ -392,8 +521,8 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 22--23
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-[16 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=269, 822.07124pt x 498.86375pt>
+[24 <./Images/Request.jpg> <./Images/reservation.jpg>]
+<Images/taxidriver_statechart.jpg, id=325, 822.07124pt x 498.86375pt>
 File: Images/taxidriver_statechart.jpg Graphic file (type jpg)
 
 <use Images/taxidriver_statechart.jpg>
@@ -405,11 +534,11 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 28--29
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-) [17 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [18
+) [25 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [26
 
 
 ] (tools.tex)
-[19
+[27
 
 
 ]
@@ -420,24 +549,24 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Rasd.out' has not changed.
-(rerunfilecheck)             Checksum: 1884FBE68173DE6A29DC550B16D0BDE3;2321.
+(rerunfilecheck)             Checksum: 9961E89B5F6F0DDD8B631FB2F183F2F9;2401.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5468 strings out of 493698
- 80127 string characters out of 3144382
- 168095 words of memory out of 3000000
- 8651 multiletter control sequences out of 15000+200000
+ 5518 strings out of 493673
+ 81469 string characters out of 3141532
+ 168384 words of memory out of 3000000
+ 8706 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 29i,7n,33p,1213b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (21 pages, 330450 bytes).
+ 29i,7n,33p,1213b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Rasd.pdf (29 pages, 798887 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 298 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 373 PDF objects out of 1000 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 

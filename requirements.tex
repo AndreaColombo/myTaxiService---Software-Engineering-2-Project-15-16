@@ -1,5 +1,77 @@
 \section{REQUIREMENTS}
 \subsection{External Interfaces}
+Here are shown some mockup that should represent an idea of the structure of the web and mobile interfaces
+
+\subsubsection{Web User interfaces}
+\begin{itemize}
+\item \textbf{Visitor home page} \\ \\ This is the first page that every visitor will get. It's the homepage of myTaxiService and it allows visitors to login or register.
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.05\textwidth]{web_vis}
+\end{figure}
+
+\newpage\item \textbf{Registration Form} \\  This mock shows the basic fields that the server needs to register a new user, some of them are mandatory and there could be more in future implementations. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.2\textwidth]{web_reg}
+\end{figure}
+
+\newpage
+\item \textbf{Passengers home page} \\  Registered users that have a passenger account will be lead here from the visitor home page. This mock shows the actions that they will be able to do: requesting a ride, reserving a taxi, finding a shared ride, going in the reservations page, logging out. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.2\textwidth]{web_home1}
+\end{figure}
+\newpage
+
+\item \textbf{Passengers with a request home page} \\ Passengers that already have a request active and are waiting for a taxi will have a different home page, that will not allow them to do another request. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.2\textwidth]{web_home2}
+\end{figure}
+\newpage
+
+\item \textbf{Request form} \\ This is a simply and basic mock that allows the passenger to instantly call a taxi. the system will wait for the answer of a driver \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.2\textwidth]{web_req}
+\end{figure}
+\newpage
+
+\item \textbf{Reservation Form} \\ Here is an example of how reservations should be done. They all are mandatory except for the shared ride option. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.2\textwidth]{web_res1}
+\end{figure}
+\newpage
+
+\item \textbf{Reservations} \\ Once a reservation is done, the user is able to see it in the reservation page. they are ordered by date and hour and all the properties are listed. The example shows all the typologies of reservations, including the deletable and the not deletable ones. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1\textwidth]{web_res2}
+\end{figure}
+\newpage
+
+\item \textbf{Shared rides} \\ This mock is the template of the shared ride page. All the fields are mandatory, after filling them, there will be shown the result of the search. The user then can join his preferred ride. \\ \\
+\begin{figure}[h]
+	\centering	
+	\includegraphics[width=1.1\textwidth]{web_share}
+\end{figure}
+\newpage
+	
+	
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
 
 \subsection{Functional Requirements}
 By analyzing the goals we came up with a list of requirements in order to achieve them:
