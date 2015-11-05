@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  5 NOV 2015 10:42
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  4 NOV 2015 15:04
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  5 NOV 2015 19:48
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -242,11 +238,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 
 (Rasd.out) (Rasd.out)
 \@outlinefile=\write3
-<<<<<<< HEAD
- <Images/polimi_logo.jpg, id=143, 240.9pt x 240.9pt>
-=======
- <Images/polimi_logo.jpg, id=155, 240.9pt x 240.9pt>
->>>>>>> origin/master
+ <Images/polimi_logo.jpg, id=167, 240.9pt x 240.9pt>
 File: Images/polimi_logo.jpg Graphic file (type jpg)
 
 <use Images/polimi_logo.jpg>
@@ -270,11 +262,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
-l.39 ...{\numberline {7}USED TOOLS}{28}{section.7}
-=======
-l.39 ...rline {6.1}Alloy Code}{19}{subsection.6.1}
->>>>>>> origin/master
+l.40 ...4}State chart diagram}{41}{subsection.5.4}
                                                    [1])
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
@@ -292,71 +280,12 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [3
 
-<<<<<<< HEAD
 ] [4])
-[5] (Overall_description.tex
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no ¢ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no € in font cmr12!
-Missing character: There is no “ in font cmr12!
-
-Overfull \hbox (3.88371pt too wide) in paragraph at lines 28--43
-\OT1/cmr/m/n/12 Man-age-ment Sys-tem (DBMS):  Name: MySQL.  Ver-sion: 5.6.21  S
-ource:
- []
+[5] (Overall_description.tex [6
 
 
-Overfull \hbox (59.17043pt too wide) in paragraph at lines 28--43
-\OT1/cmr/m/n/12 sion: 7  Source: http://www.oracle.com/technetwork/java/javaee/
-tech/index.html
- []
-
-
-Overfull \hbox (81.73474pt too wide) in paragraph at lines 28--43
-\OT1/cmr/m/n/12 Ap-pli-ca-tion server:  Name: Glass-fish.  Ver-sion: 4.1.  Sour
-ce: https://glassfish.java.net/
- []
-
-[6
-
-
-] [7]) [8] (requirements.tex
-<Images/web_vis.png, id=225, 539.01375pt x 402.50375pt>
+] [7] [8]) [9] (requirements.tex
+<Images/web_vis.png, id=259, 539.01375pt x 402.50375pt>
 File: Images/web_vis.png Graphic file (type png)
 
 <use Images/web_vis.png>
@@ -370,24 +299,13 @@ Overfull \hbox (19.50119pt too wide) in paragraph at lines 10--11
 
 Underfull \hbox (badness 10000) in paragraph at lines 7--12
 
-=======
-] [4]) [5]
-(Overall_description.tex [6
-
-
-] [7] [8]) [9] (requirements.tex
-Overfull \hbox (0.9489pt too wide) in paragraph at lines 26--27
-[]\OT1/cmr/m/n/12 Passenger does not have a re-served ride oc-cur-ring within t
-hirty
->>>>>>> origin/master
  []
 
 [10
 
 
-<<<<<<< HEAD
  <./Images/web_vis.png>]
-<Images/web_reg.png, id=232, 853.1875pt x 572.1375pt>
+<Images/web_reg.png, id=266, 853.1875pt x 572.1375pt>
 File: Images/web_reg.png Graphic file (type png)
  <use Images/web_reg.png>
 Package pdftex.def Info: Images/web_reg.png used on input line 16.
@@ -402,8 +320,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
 
  []
 
-[10 <./Images/web_reg.png>]
-<Images/web_home1.png, id=238, 591.20876pt x 453.695pt>
+[11 <./Images/web_reg.png>]
+<Images/web_home1.png, id=273, 591.20876pt x 453.695pt>
 File: Images/web_home1.png Graphic file (type png)
 
 <use Images/web_home1.png>
@@ -419,8 +337,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--25
 
  []
 
-[11 <./Images/web_home1.png>]
-<Images/web_home2.png, id=245, 597.23125pt x 472.76625pt>
+[12 <./Images/web_home1.png>]
+<Images/web_home2.png, id=279, 597.23125pt x 472.76625pt>
 File: Images/web_home2.png Graphic file (type png)
 
 <use Images/web_home2.png>
@@ -436,8 +354,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--32
 
  []
 
-[12 <./Images/web_home2.png>]
-<Images/web_req.png, id=251, 742.775pt x 425.59pt>
+[13 <./Images/web_home2.png>]
+<Images/web_req.png, id=285, 742.775pt x 425.59pt>
 File: Images/web_req.png Graphic file (type png)
  <use Images/web_req.png>
 Package pdftex.def Info: Images/web_req.png used on input line 37.
@@ -452,8 +370,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--39
 
  []
 
-[13 <./Images/web_req.png>]
-<Images/web_res1.png, id=257, 530.98375pt x 455.7025pt>
+[14 <./Images/web_req.png>]
+<Images/web_res1.png, id=291, 530.98375pt x 455.7025pt>
 File: Images/web_res1.png Graphic file (type png)
 
 <use Images/web_res1.png>
@@ -469,8 +387,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--46
 
  []
 
-[14 <./Images/web_res1.png>]
-<Images/web_res2.png, id=263, 539.01375pt x 633.36626pt>
+[15 <./Images/web_res1.png>]
+<Images/web_res2.png, id=297, 539.01375pt x 633.36626pt>
 File: Images/web_res2.png Graphic file (type png)
 
 <use Images/web_res2.png>
@@ -481,8 +399,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--53
 
  []
 
-[15 <./Images/web_res2.png>]
-<Images/web_share.png, id=269, 519.9425pt x 532.99126pt>
+[16 <./Images/web_res2.png>]
+<Images/web_share.png, id=303, 519.9425pt x 532.99126pt>
 File: Images/web_share.png Graphic file (type png)
 
 <use Images/web_share.png>
@@ -498,24 +416,142 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
 
  []
 
-[16 <./Images/web_share.png>]
-Overfull \hbox (0.9489pt too wide) in paragraph at lines 98--99
+[17 <./Images/web_share.png>]
+<Images/mob_visit.png, id=310, 495.35063pt x 373.395pt>
+File: Images/mob_visit.png Graphic file (type png)
+
+<use Images/mob_visit.png>
+Package pdftex.def Info: Images/mob_visit.png used on input line 71.
+(pdftex.def)             Requested size: 507.00119pt x 382.17969pt.
+
+Overfull \hbox (117.00119pt too wide) in paragraph at lines 71--72
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--73
+
+ []
+
+[18 <./Images/mob_visit.png>]
+<Images/mob_home1.png, id=316, 436.63126pt x 373.395pt>
+File: Images/mob_home1.png Graphic file (type png)
+
+<use Images/mob_home1.png>
+Package pdftex.def Info: Images/mob_home1.png used on input line 79.
+(pdftex.def)             Requested size: 467.99881pt x 400.2238pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 75--81
+
+ []
+
+[19 <./Images/mob_home1.png>]
+<Images/mob_req.png, id=322, 485.815pt x 497.86pt>
+File: Images/mob_req.png Graphic file (type png)
+ <use Images/mob_req.png>
+Package pdftex.def Info: Images/mob_req.png used on input line 86.
+(pdftex.def)             Requested size: 390.0pt x 399.66354pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--88
+
+ []
+
+[20 <./Images/mob_req.png>]
+<Images/mob_reg.png, id=328, 283.0575pt x 497.86pt>
+File: Images/mob_reg.png Graphic file (type png)
+ <use Images/mob_reg.png>
+Package pdftex.def Info: Images/mob_reg.png used on input line 96.
+(pdftex.def)             Requested size: 253.49762pt x 445.882pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--98
+
+ []
+
+[21 <./Images/mob_reg.png>]
+<Images/mob_res.png, id=334, 291.0875pt x 502.87875pt>
+File: Images/mob_res.png Graphic file (type png)
+
+<use Images/mob_res.png>
+Package pdftex.def Info: Images/mob_res.png used on input line 104.
+(pdftex.def)             Requested size: 265.19714pt x 458.1882pt.
+ [22 <./Images/mob_res.png>]
+<Images/mob_res2.png, id=340, 615.29875pt x 497.86pt>
+File: Images/mob_res2.png Graphic file (type png)
+
+<use Images/mob_res2.png>
+Package pdftex.def Info: Images/mob_res2.png used on input line 111.
+(pdftex.def)             Requested size: 467.99881pt x 378.6814pt.
+
+Overfull \hbox (77.99881pt too wide) in paragraph at lines 111--112
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 108--113
+
+ []
+
+[23 <./Images/mob_res2.png>]
+<Images/mob_share.png, id=347, 548.0475pt x 502.87875pt>
+File: Images/mob_share.png Graphic file (type png)
+
+<use Images/mob_share.png>
+Package pdftex.def Info: Images/mob_share.png used on input line 119.
+(pdftex.def)             Requested size: 390.0pt x 357.85977pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--121
+
+ []
+
+[24 <./Images/mob_share.png>]
+<Images/mob_d.png, id=353, 478.78876pt x 497.86pt>
+File: Images/mob_d.png Graphic file (type png)
+ <use Images/mob_d.png>
+Package pdftex.def Info: Images/mob_d.png used on input line 133.
+(pdftex.def)             Requested size: 429.00238pt x 446.09471pt.
+
+Overfull \hbox (39.00238pt too wide) in paragraph at lines 133--134
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--135
+
+ []
+
+[25 <./Images/mob_d.png>]
+<Images/mob_d_req.png, id=359, 283.0575pt x 497.86pt>
+File: Images/mob_d_req.png Graphic file (type png)
+
+<use Images/mob_d_req.png>
+Package pdftex.def Info: Images/mob_d_req.png used on input line 139.
+(pdftex.def)             Requested size: 253.49762pt x 445.882pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--141
+
+ []
+
+[26 <./Images/mob_d_req.png>]
+Overfull \hbox (0.9489pt too wide) in paragraph at lines 174--175
 []\OT1/cmr/m/n/12 Passenger does not have a re-served ride oc-cur-ring within t
 hirty
  []
 
-[17] [18] [19]) [20] (scenario.tex [21
+[27] [28] [29]) [30] (scenario.tex [31
 
 
-]) [22] (uml.tex
-<Images/class_diagram.jpg, id=311, 886.31125pt x 870.25125pt>
-=======
-] [11] [12]) [13] (scenario.tex [14
-
-
-]) [15] (uml.tex
-<Images/class_diagram.jpg, id=280, 886.31125pt x 870.25125pt>
->>>>>>> origin/master
+]) [32] (uml.tex
+<Images/class_diagram.jpg, id=401, 886.31125pt x 870.25125pt>
 File: Images/class_diagram.jpg Graphic file (type jpg)
 
 <use Images/class_diagram.jpg>
@@ -526,19 +562,11 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 8--9
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-[23
+[33
 
 
  <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=317, 862.22125pt x 163.61125pt>
-=======
-[16
-
-
- <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=285, 862.22125pt x 163.61125pt>
->>>>>>> origin/master
+<Images/Request.jpg, id=406, 862.22125pt x 163.61125pt>
 File: Images/Request.jpg Graphic file (type jpg)
 
 <use Images/Request.jpg>
@@ -549,11 +577,7 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 16--17
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-<Images/reservation.jpg, id=318, 1479.5275pt x 523.9575pt>
-=======
-<Images/reservation.jpg, id=286, 1479.5275pt x 523.9575pt>
->>>>>>> origin/master
+<Images/reservation.jpg, id=407, 1479.5275pt x 523.9575pt>
 File: Images/reservation.jpg Graphic file (type jpg)
 
 <use Images/reservation.jpg>
@@ -564,13 +588,8 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 22--23
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-[24 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=325, 822.07124pt x 498.86375pt>
-=======
-[17 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=294, 822.07124pt x 498.86375pt>
->>>>>>> origin/master
+[34 <./Images/Request.jpg> <./Images/reservation.jpg>]
+<Images/taxidriver_statechart.jpg, id=414, 822.07124pt x 498.86375pt>
 File: Images/taxidriver_statechart.jpg Graphic file (type jpg)
 
 <use Images/taxidriver_statechart.jpg>
@@ -582,19 +601,11 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 28--29
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-) [25 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [26
+) [35 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [36
 
 
 ] (tools.tex)
-[27
-=======
-) [18 <./Images/taxidriver_statechart.jpg>] (alloy.tex) [19
-
-
-] (tools.tex)
-[20
->>>>>>> origin/master
+[37
 
 
 ]
@@ -605,15 +616,14 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Rasd.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: 9961E89B5F6F0DDD8B631FB2F183F2F9;2401.
+(rerunfilecheck)             Checksum: B750C8481E8ADC5A240EBC461487FC94;2906.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5518 strings out of 493673
- 81469 string characters out of 3141532
- 168384 words of memory out of 3000000
- 8706 multiletter control sequences out of 15000+200000
+ 5585 strings out of 493673
+ 82732 string characters out of 3141532
+ 169385 words of memory out of 3000000
+ 8748 multiletter control sequences out of 15000+200000
  9115 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,7n,33p,1213b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -621,31 +631,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
 ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (29 pages, 798887 bytes).
+Output written on Rasd.pdf (39 pages, 1194649 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 346 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-(rerunfilecheck)             Checksum: E0489510AA8BA6DEF739715D3D62E356;2654.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
- ) 
-Here is how much of TeX's memory you used:
- 5477 strings out of 493698
- 80294 string characters out of 3144382
- 168096 words of memory out of 3000000
- 8655 multiletter control sequences out of 15000+200000
- 9115 words of font info for 32 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 29i,7n,33p,1213b,492s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (22 pages, 334398 bytes).
-PDF statistics:
- 341 PDF objects out of 1000 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
+ 467 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 439 words of extra memory for PDF output out of 10000 (max. 10000000)
 
