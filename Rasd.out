@@ -35,7 +35,12 @@
 \BOOKMARK [2][-]{subsection.5.3}{Class Diagram}{section.5}% 35
 \BOOKMARK [2][-]{subsection.5.4}{State chart diagram}{section.5}% 36
 \BOOKMARK [1][-]{section.6}{ALLOY MODELLING}{}% 37
-\BOOKMARK [2][-]{subsection.6.1}{Alloy Code}{section.6}% 38
-\BOOKMARK [2][-]{subsection.6.2}{Alloy Worlds}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.3}{non so cosa sia ahahahalloy}{section.6}% 40
-\BOOKMARK [1][-]{section.7}{USED TOOLS}{}% 41
+\BOOKMARK [2][-]{subsection.6.1}{Signatures}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.2}{Facts}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.3}{Assertions}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.4}{Predicates}{section.6}% 41
+\BOOKMARK [2][-]{subsection.6.5}{Generated Worlds}{section.6}% 42
+\BOOKMARK [3][-]{subsubsection.6.5.1}{Show Predicate}{subsection.6.5}% 43
+\BOOKMARK [3][-]{subsubsection.6.5.2}{Show Shared Predicate}{subsection.6.5}% 44
+\BOOKMARK [3][-]{subsubsection.6.5.3}{Show Rides Predicate}{subsection.6.5}% 45
+\BOOKMARK [1][-]{section.7}{USED TOOLS}{}% 46

@@ -39,7 +39,12 @@
 \contentsline {subsection}{\numberline {5.3}Class Diagram}{33}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}State chart diagram}{34}{subsection.5.4}
 \contentsline {section}{\numberline {6}ALLOY MODELLING}{36}{section.6}
-\contentsline {subsection}{\numberline {6.1}Alloy Code}{36}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Alloy Worlds}{36}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}non so cosa sia ahahahalloy}{36}{subsection.6.3}
-\contentsline {section}{\numberline {7}USED TOOLS}{37}{section.7}
+\contentsline {subsection}{\numberline {6.1}Signatures}{36}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Facts}{37}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Assertions}{38}{subsection.6.3}
+\contentsline {subsection}{\numberline {6.4}Predicates}{39}{subsection.6.4}
+\contentsline {subsection}{\numberline {6.5}Generated Worlds}{40}{subsection.6.5}
+\contentsline {subsubsection}{\numberline {6.5.1}Show Predicate}{40}{subsubsection.6.5.1}
+\contentsline {subsubsection}{\numberline {6.5.2}Show Shared Predicate}{41}{subsubsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.3}Show Rides Predicate}{42}{subsubsection.6.5.3}
+\contentsline {section}{\numberline {7}USED TOOLS}{43}{section.7}
