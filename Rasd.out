@@ -32,22 +32,6 @@
 \BOOKMARK [1][-]{section.5}{UML MODELS}{}% 32
 \BOOKMARK [2][-]{subsection.5.1}{Use case diagram}{section.5}% 33
 \BOOKMARK [2][-]{subsection.5.2}{Use case Description and sequence diagram}{section.5}% 34
-<<<<<<< HEAD
-\BOOKMARK [2][-]{subsection.5.3}{Class Diagram}{section.5}% 35
-\BOOKMARK [2][-]{subsection.5.4}{State chart diagram}{section.5}% 36
-\BOOKMARK [1][-]{section.6}{ALLOY MODELLING}{}% 37
-\BOOKMARK [2][-]{subsection.6.1}{Signatures}{section.6}% 38
-\BOOKMARK [2][-]{subsection.6.2}{Facts}{section.6}% 39
-\BOOKMARK [2][-]{subsection.6.3}{Assertions}{section.6}% 40
-\BOOKMARK [2][-]{subsection.6.4}{Predicates}{section.6}% 41
-\BOOKMARK [2][-]{subsection.6.5}{Generated Worlds}{section.6}% 42
-\BOOKMARK [3][-]{subsubsection.6.5.1}{Show Predicate}{subsection.6.5}% 43
-\BOOKMARK [3][-]{subsubsection.6.5.2}{Show Shared Predicate}{subsection.6.5}% 44
-\BOOKMARK [3][-]{subsubsection.6.5.3}{Show Rides Predicate}{subsection.6.5}% 45
-\BOOKMARK [1][-]{section.7}{APPENDIX}{}% 46
-\BOOKMARK [2][-]{subsection.7.1}{Used tools}{section.7}% 47
-\BOOKMARK [2][-]{subsection.7.2}{Hours of work}{section.7}% 48
-=======
 \BOOKMARK [3][-]{subsubsection.5.2.1}{Registation}{subsection.5.2}% 35
 \BOOKMARK [3][-]{subsubsection.5.2.2}{Login}{subsection.5.2}% 36
 \BOOKMARK [3][-]{subsubsection.5.2.3}{Request ride}{subsection.5.2}% 37
@@ -68,5 +52,6 @@
 \BOOKMARK [3][-]{subsubsection.6.5.1}{Show Predicate}{subsection.6.5}% 52
 \BOOKMARK [3][-]{subsubsection.6.5.2}{Show Shared Predicate}{subsection.6.5}% 53
 \BOOKMARK [3][-]{subsubsection.6.5.3}{Show Rides Predicate}{subsection.6.5}% 54
-\BOOKMARK [1][-]{section.7}{USED TOOLS}{}% 55
->>>>>>> origin/master
+\BOOKMARK [1][-]{section.7}{APPENDIX}{}% 55
+\BOOKMARK [2][-]{subsection.7.1}{Used tools}{section.7}% 56
+\BOOKMARK [2][-]{subsection.7.2}{Hours of work}{section.7}% 57

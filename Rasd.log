@@ -1,16 +1,12 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.10.22)  6 NOV 2015 15:21
-=======
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  6 NOV 2015 15:14
->>>>>>> origin/master
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  6 NOV 2015 15:28
 entering extended mode
 **Rasd.tex
 (Rasd.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -25,31 +21,31 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -57,7 +53,7 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box26
 \beforetitleunit=\skip43
@@ -69,14 +65,14 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen108
 \titlewidthfirst=\dimen109
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -117,25 +113,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen110
 \Hy@linkcounter=\count88
 \Hy@pagecounter=\count89
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count90
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Hyper figures OFF on input line 4443.
@@ -147,7 +143,7 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count91
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\url\url.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -172,12 +168,12 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count96
 \c@bookmark@seq@number=\count97
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
@@ -203,7 +199,7 @@ LaTeX Font Info:    ... okay on input line 26.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 26.
 LaTeX Font Info:    ... okay on input line 26.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count98
 \scratchdimen=\dimen114
@@ -218,20 +214,20 @@ LaTeX Font Info:    ... okay on input line 26.
 \everyMPtoPDFconversion=\toks17
 )
 \AtBeginShipoutBox=\box28
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
 Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
 Package hyperref Info: Link coloring ON on input line 26.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count104
@@ -242,11 +238,7 @@ LaTeX Info: Redefining \nameref on input line 26.
 
 (Rasd.out) (Rasd.out)
 \@outlinefile=\write3
-<<<<<<< HEAD
- <Images/polimi_logo.jpg, id=195, 240.9pt x 240.9pt>
-=======
- <Images/polimi_logo.jpg, id=223, 240.9pt x 240.9pt>
->>>>>>> origin/master
+ <Images/polimi_logo.jpg, id=231, 240.9pt x 240.9pt>
 File: Images/polimi_logo.jpg Graphic file (type jpg)
 
 <use Images/polimi_logo.jpg>
@@ -258,8 +250,8 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 29.
  [1
 
-{C:/Users/lele/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Images/pol
-imi_logo.jpg>] [2] (Rasd.toc
+{C:/Users/Andrea Colombo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./
+Images/polimi_logo.jpg>] [2] (Rasd.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 2.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -281,23 +273,19 @@ l.30 \newpage
               [2] (introduction.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 12.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 12.
  [3
 
-] [4])
-[5] (Overall_description.tex [6
+] [4]) [5]
+(Overall_description.tex [6
 
 
 ] [7] [8]) [9] (requirements.tex
-<<<<<<< HEAD
-<Images/web_vis.png, id=294, 539.01375pt x 402.50375pt>
-=======
-<Images/web_vis.png, id=329, 539.01375pt x 402.50375pt>
->>>>>>> origin/master
+<Images/web_vis.png, id=339, 539.01375pt x 402.50375pt>
 File: Images/web_vis.png Graphic file (type png)
 
 <use Images/web_vis.png>
@@ -317,11 +305,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--12
 
 
  <./Images/web_vis.png>]
-<<<<<<< HEAD
-<Images/web_reg.png, id=301, 853.1875pt x 572.1375pt>
-=======
-<Images/web_reg.png, id=336, 853.1875pt x 572.1375pt>
->>>>>>> origin/master
+<Images/web_reg.png, id=346, 853.1875pt x 572.1375pt>
 File: Images/web_reg.png Graphic file (type png)
  <use Images/web_reg.png>
 Package pdftex.def Info: Images/web_reg.png used on input line 16.
@@ -337,11 +321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--18
  []
 
 [11 <./Images/web_reg.png>]
-<<<<<<< HEAD
-<Images/web_home1.png, id=308, 591.20876pt x 453.695pt>
-=======
-<Images/web_home1.png, id=343, 591.20876pt x 453.695pt>
->>>>>>> origin/master
+<Images/web_home1.png, id=353, 591.20876pt x 453.695pt>
 File: Images/web_home1.png Graphic file (type png)
 
 <use Images/web_home1.png>
@@ -358,11 +338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--25
  []
 
 [12 <./Images/web_home1.png>]
-<<<<<<< HEAD
-<Images/web_home2.png, id=314, 597.23125pt x 472.76625pt>
-=======
-<Images/web_home2.png, id=349, 597.23125pt x 472.76625pt>
->>>>>>> origin/master
+<Images/web_home2.png, id=359, 597.23125pt x 472.76625pt>
 File: Images/web_home2.png Graphic file (type png)
 
 <use Images/web_home2.png>
@@ -379,11 +355,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--32
  []
 
 [13 <./Images/web_home2.png>]
-<<<<<<< HEAD
-<Images/web_req.png, id=320, 742.775pt x 425.59pt>
-=======
-<Images/web_req.png, id=355, 742.775pt x 425.59pt>
->>>>>>> origin/master
+<Images/web_req.png, id=365, 742.775pt x 425.59pt>
 File: Images/web_req.png Graphic file (type png)
  <use Images/web_req.png>
 Package pdftex.def Info: Images/web_req.png used on input line 37.
@@ -399,11 +371,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--39
  []
 
 [14 <./Images/web_req.png>]
-<<<<<<< HEAD
-<Images/web_res1.png, id=326, 530.98375pt x 455.7025pt>
-=======
-<Images/web_res1.png, id=361, 530.98375pt x 455.7025pt>
->>>>>>> origin/master
+<Images/web_res1.png, id=371, 530.98375pt x 455.7025pt>
 File: Images/web_res1.png Graphic file (type png)
 
 <use Images/web_res1.png>
@@ -420,11 +388,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--46
  []
 
 [15 <./Images/web_res1.png>]
-<<<<<<< HEAD
-<Images/web_res2.png, id=332, 539.01375pt x 633.36626pt>
-=======
-<Images/web_res2.png, id=367, 539.01375pt x 633.36626pt>
->>>>>>> origin/master
+<Images/web_res2.png, id=377, 539.01375pt x 633.36626pt>
 File: Images/web_res2.png Graphic file (type png)
 
 <use Images/web_res2.png>
@@ -436,11 +400,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--53
  []
 
 [16 <./Images/web_res2.png>]
-<<<<<<< HEAD
-<Images/web_share.png, id=338, 519.9425pt x 532.99126pt>
-=======
-<Images/web_share.png, id=373, 519.9425pt x 532.99126pt>
->>>>>>> origin/master
+<Images/web_share.png, id=383, 519.9425pt x 532.99126pt>
 File: Images/web_share.png Graphic file (type png)
 
 <use Images/web_share.png>
@@ -457,11 +417,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--60
  []
 
 [17 <./Images/web_share.png>]
-<<<<<<< HEAD
-<Images/mob_visit.png, id=345, 495.35063pt x 373.395pt>
-=======
-<Images/mob_visit.png, id=380, 495.35063pt x 373.395pt>
->>>>>>> origin/master
+<Images/mob_visit.png, id=390, 495.35063pt x 373.395pt>
 File: Images/mob_visit.png Graphic file (type png)
 
 <use Images/mob_visit.png>
@@ -483,11 +439,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--73
  []
 
 [18 <./Images/mob_visit.png>]
-<<<<<<< HEAD
-<Images/mob_home1.png, id=351, 436.63126pt x 373.395pt>
-=======
-<Images/mob_home1.png, id=386, 436.63126pt x 373.395pt>
->>>>>>> origin/master
+<Images/mob_home1.png, id=396, 436.63126pt x 373.395pt>
 File: Images/mob_home1.png Graphic file (type png)
 
 <use Images/mob_home1.png>
@@ -504,11 +456,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--81
  []
 
 [19 <./Images/mob_home1.png>]
-<<<<<<< HEAD
-<Images/mob_req.png, id=357, 485.815pt x 497.86pt>
-=======
-<Images/mob_req.png, id=392, 485.815pt x 497.86pt>
->>>>>>> origin/master
+<Images/mob_req.png, id=402, 485.815pt x 497.86pt>
 File: Images/mob_req.png Graphic file (type png)
  <use Images/mob_req.png>
 Package pdftex.def Info: Images/mob_req.png used on input line 86.
@@ -519,11 +467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--88
  []
 
 [20 <./Images/mob_req.png>]
-<<<<<<< HEAD
-<Images/mob_reg.png, id=363, 283.0575pt x 497.86pt>
-=======
-<Images/mob_reg.png, id=398, 283.0575pt x 497.86pt>
->>>>>>> origin/master
+<Images/mob_reg.png, id=408, 283.0575pt x 497.86pt>
 File: Images/mob_reg.png Graphic file (type png)
  <use Images/mob_reg.png>
 Package pdftex.def Info: Images/mob_reg.png used on input line 96.
@@ -534,22 +478,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--98
  []
 
 [21 <./Images/mob_reg.png>]
-<<<<<<< HEAD
-<Images/mob_res.png, id=369, 291.0875pt x 502.87875pt>
-=======
-<Images/mob_res.png, id=404, 291.0875pt x 502.87875pt>
->>>>>>> origin/master
+<Images/mob_res.png, id=414, 291.0875pt x 502.87875pt>
 File: Images/mob_res.png Graphic file (type png)
 
 <use Images/mob_res.png>
 Package pdftex.def Info: Images/mob_res.png used on input line 104.
 (pdftex.def)             Requested size: 265.19714pt x 458.1882pt.
  [22 <./Images/mob_res.png>]
-<<<<<<< HEAD
-<Images/mob_res2.png, id=375, 615.29875pt x 497.86pt>
-=======
-<Images/mob_res2.png, id=410, 615.29875pt x 497.86pt>
->>>>>>> origin/master
+<Images/mob_res2.png, id=420, 615.29875pt x 497.86pt>
 File: Images/mob_res2.png Graphic file (type png)
 
 <use Images/mob_res2.png>
@@ -566,11 +502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--113
  []
 
 [23 <./Images/mob_res2.png>]
-<<<<<<< HEAD
-<Images/mob_share.png, id=382, 548.0475pt x 502.87875pt>
-=======
-<Images/mob_share.png, id=417, 548.0475pt x 502.87875pt>
->>>>>>> origin/master
+<Images/mob_share.png, id=427, 548.0475pt x 502.87875pt>
 File: Images/mob_share.png Graphic file (type png)
 
 <use Images/mob_share.png>
@@ -582,11 +514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--121
  []
 
 [24 <./Images/mob_share.png>]
-<<<<<<< HEAD
-<Images/mob_d.png, id=388, 478.78876pt x 497.86pt>
-=======
-<Images/mob_d.png, id=423, 478.78876pt x 497.86pt>
->>>>>>> origin/master
+<Images/mob_d.png, id=433, 478.78876pt x 497.86pt>
 File: Images/mob_d.png Graphic file (type png)
  <use Images/mob_d.png>
 Package pdftex.def Info: Images/mob_d.png used on input line 133.
@@ -602,11 +530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--135
  []
 
 [25 <./Images/mob_d.png>]
-<<<<<<< HEAD
-<Images/mob_d_req.png, id=394, 283.0575pt x 497.86pt>
-=======
-<Images/mob_d_req.png, id=429, 283.0575pt x 497.86pt>
->>>>>>> origin/master
+<Images/mob_d_req.png, id=439, 283.0575pt x 497.86pt>
 File: Images/mob_d_req.png Graphic file (type png)
 
 <use Images/mob_d_req.png>
@@ -627,9 +551,6 @@ hirty
 
 
 ]) [32] (uml.tex
-<<<<<<< HEAD
-<Images/class_diagram.jpg, id=436, 886.31125pt x 894.34125pt>
-=======
 Overfull \hbox (3.88582pt too wide) in paragraph at lines 5--30
 []
  []
@@ -677,8 +598,7 @@ Overfull \hbox (3.88582pt too wide) in paragraph at lines 222--245
 []
  []
 
-[41] <Images/class_diagram.jpg, id=509, 1110.1475pt x 658.46pt>
->>>>>>> origin/master
+[41] <Images/class_diagram.jpg, id=519, 1110.1475pt x 658.46pt>
 File: Images/class_diagram.jpg Graphic file (type jpg)
 
 <use Images/class_diagram.jpg>
@@ -689,16 +609,8 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 250--251
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-[33
-
-
- <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=441, 862.22125pt x 163.61125pt>
-=======
 [42 <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=514, 862.22125pt x 163.61125pt>
->>>>>>> origin/master
+<Images/Request.jpg, id=524, 862.22125pt x 163.61125pt>
 File: Images/Request.jpg Graphic file (type jpg)
 
 <use Images/Request.jpg>
@@ -709,11 +621,7 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 258--259
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-<Images/reservation.jpg, id=442, 1479.5275pt x 523.9575pt>
-=======
-<Images/reservation.jpg, id=515, 1479.5275pt x 523.9575pt>
->>>>>>> origin/master
+<Images/reservation.jpg, id=525, 1479.5275pt x 523.9575pt>
 File: Images/reservation.jpg Graphic file (type jpg)
 
 <use Images/reservation.jpg>
@@ -724,13 +632,8 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 264--265
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-[34 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=449, 822.07124pt x 498.86375pt>
-=======
 [43 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=522, 822.07124pt x 498.86375pt>
->>>>>>> origin/master
+<Images/taxidriver_statechart.jpg, id=532, 822.07124pt x 498.86375pt>
 File: Images/taxidriver_statechart.jpg Graphic file (type jpg)
 
 <use Images/taxidriver_statechart.jpg>
@@ -742,13 +645,8 @@ Overfull \hbox (18.27759pt too wide) in paragraph at lines 270--271
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<<<<<<< HEAD
-) [35 <./Images/taxidriver_statechart.jpg>] (alloy.tex
-<Images/Sig.png, id=456, 277.78781pt x 377.91188pt>
-=======
 ) [44 <./Images/taxidriver_statechart.jpg>] (alloy.tex
-<Images/Sig.png, id=528, 277.78781pt x 377.91188pt>
->>>>>>> origin/master
+<Images/Sig.png, id=538, 277.78781pt x 377.91188pt>
 File: Images/Sig.png Graphic file (type png)
  <use Images/Sig.png>
 Package pdftex.def Info: Images/Sig.png used on input line 8.
@@ -757,11 +655,7 @@ Package pdftex.def Info: Images/Sig.png used on input line 8.
 [45
 
 
-<<<<<<< HEAD
- <./Images/Sig.png>] <Images/Facts.png, id=462, 624.83438pt x 375.65344pt>
-=======
- <./Images/Sig.png>] <Images/Facts.png, id=534, 624.83438pt x 375.65344pt>
->>>>>>> origin/master
+ <./Images/Sig.png>] <Images/Facts.png, id=544, 624.83438pt x 375.65344pt>
 File: Images/Facts.png Graphic file (type png)
 
 <use Images/Facts.png>
@@ -772,11 +666,7 @@ Overfull \hbox (31.6592pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-<<<<<<< HEAD
-[37 <./Images/Facts.png>] <Images/Assert.png, id=468, 614.295pt x 164.11313pt>
-=======
-[46 <./Images/Facts.png>] <Images/Assert.png, id=540, 614.295pt x 164.11313pt>
->>>>>>> origin/master
+[46 <./Images/Facts.png>] <Images/Assert.png, id=550, 614.295pt x 164.11313pt>
 File: Images/Assert.png Graphic file (type png)
 
 <use Images/Assert.png>
@@ -787,60 +677,36 @@ Overfull \hbox (117.00119pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-<<<<<<< HEAD
-[38 <./Images/Assert.png>]
-<Images/Predicates.png, id=474, 431.36156pt x 469.00218pt>
-=======
 [47 <./Images/Assert.png>]
-<Images/Predicates.png, id=547, 431.36156pt x 469.00218pt>
->>>>>>> origin/master
+<Images/Predicates.png, id=557, 431.36156pt x 469.00218pt>
 File: Images/Predicates.png Graphic file (type png)
 
 <use Images/Predicates.png>
 Package pdftex.def Info: Images/Predicates.png used on input line 30.
 (pdftex.def)             Requested size: 390.0pt x 424.0446pt.
-<<<<<<< HEAD
- [39 <./Images/Predicates.png>]
-<Images/Show.png, id=479, 1403.99532pt x 660.21657pt>
-=======
  [48 <./Images/Predicates.png>]
-<Images/Show.png, id=552, 1403.99532pt x 660.21657pt>
->>>>>>> origin/master
+<Images/Show.png, id=562, 1403.99532pt x 660.21657pt>
 File: Images/Show.png Graphic file (type png)
  <use Images/Show.png>
 Package pdftex.def Info: Images/Show.png used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 183.38855pt.
 
-<<<<<<< HEAD
-[40 <./Images/Show.png>]
-<Images/ShowShared.png, id=485, 895.84688pt x 511.15968pt>
-=======
 [49 <./Images/Show.png>]
-<Images/ShowShared.png, id=558, 895.84688pt x 511.15968pt>
->>>>>>> origin/master
+<Images/ShowShared.png, id=568, 895.84688pt x 511.15968pt>
 File: Images/ShowShared.png Graphic file (type png)
 
 <use Images/ShowShared.png>
 Package pdftex.def Info: Images/ShowShared.png used on input line 45.
 (pdftex.def)             Requested size: 390.0pt x 222.52425pt.
-<<<<<<< HEAD
- [41 <./Images/ShowShared.png>]
-<Images/ShowRides.png, id=492, 1245.9047pt x 552.56438pt>
-=======
  [50 <./Images/ShowShared.png>]
-<Images/ShowRides.png, id=564, 1245.9047pt x 552.56438pt>
->>>>>>> origin/master
+<Images/ShowRides.png, id=574, 1245.9047pt x 552.56438pt>
 File: Images/ShowRides.png Graphic file (type png)
 
 <use Images/ShowRides.png>
 Package pdftex.def Info: Images/ShowRides.png used on input line 51.
 (pdftex.def)             Requested size: 390.0pt x 172.9626pt.
-<<<<<<< HEAD
- [42 <./Images/ShowRides.png>]) (appendix.tex)
-[43
-=======
- [51 <./Images/ShowRides.png>]) (tools.tex) [52
->>>>>>> origin/master
+ [51 <./Images/ShowRides.png>]) (appendix.tex)
+[52
 
 
 ]
@@ -851,48 +717,25 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 46.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 46.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 46.
 Package rerunfilecheck Info: File `Rasd.out' has not changed.
-<<<<<<< HEAD
-(rerunfilecheck)             Checksum: 9ED9527ED70E5AA826F9E1BC0A7F14E4;3371.
+(rerunfilecheck)             Checksum: 6E381427FA4C7814C5EEAE587A4C1085;4064.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5642 strings out of 493673
- 83773 string characters out of 3141532
- 169385 words of memory out of 3000000
- 8785 multiletter control sequences out of 15000+200000
+ 5669 strings out of 493698
+ 83806 string characters out of 3144382
+ 169110 words of memory out of 3000000
+ 8772 multiletter control sequences out of 15000+200000
  9284 words of font info for 33 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 29i,7n,33p,1213b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Rasd.pdf (45 pages, 1688088 bytes).
-PDF statistics:
- 552 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 530 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-(rerunfilecheck)             Checksum: 3D1D2FEF6594D2B1CD02C7C75CA214FE;3941.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
- ) 
-Here is how much of TeX's memory you used:
- 5663 strings out of 493698
- 83691 string characters out of 3144382
- 169096 words of memory out of 3000000
- 8768 multiletter control sequences out of 15000+200000
- 9115 words of font info for 32 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,9n,33p,1213b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Rasd.pdf (54 pages, 1691360 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Rasd.pdf (54 pages, 1700898 bytes).
 PDF statistics:
- 618 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 586 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> origin/master
+ 638 PDF objects out of 1000 (max. 8388607)
+ 126 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 
