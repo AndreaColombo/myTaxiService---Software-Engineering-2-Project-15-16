@@ -47,4 +47,6 @@
 \contentsline {subsubsection}{\numberline {6.5.1}Show Predicate}{40}{subsubsection.6.5.1}
 \contentsline {subsubsection}{\numberline {6.5.2}Show Shared Predicate}{41}{subsubsection.6.5.2}
 \contentsline {subsubsection}{\numberline {6.5.3}Show Rides Predicate}{42}{subsubsection.6.5.3}
-\contentsline {section}{\numberline {7}USED TOOLS}{43}{section.7}
+\contentsline {section}{\numberline {7}APPENDIX}{43}{section.7}
+\contentsline {subsection}{\numberline {7.1}Used tools}{43}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}Hours of work}{43}{subsection.7.2}
