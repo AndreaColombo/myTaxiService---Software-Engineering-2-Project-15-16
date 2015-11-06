@@ -1,5 +1,9 @@
 \section{UML MODELS}
 \subsection{Use case diagram}
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{UseCaseDiagram}
+\end{figure}
 \subsection{Use case Description and sequence diagram}
 \subsubsection{Registation}
 \begin {tabular} {|p{3cm}|p{10cm}|}
@@ -25,7 +29,7 @@ Exceptions & The email is already registered in the system or some fields are em
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{REGISTRATION}
 \end{figure}
 \newpage
 
@@ -52,7 +56,7 @@ Exceptions & Username and password combination is invalid.\\
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{LOGIN}
 \end{figure}
 \newpage
 
@@ -79,7 +83,7 @@ Exceptions & Location provided by the user is invalid\\
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{"TAXI REQUEST"}
 \end{figure}
 \newpage
 
@@ -106,9 +110,10 @@ Either it's shared or normal reservation, ten minutes before the meeting the sys
 Exceptions & Location provided by the user is invalid, requested time is in less than two hours from the time the reservation is made, there are other rides occurring in 30 minutes from the requested time\\
 \hline
 \end {tabular}
+\newpage
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[width=0.8\textwidth]{"TAXI RESERVATION"}
 \end{figure}
 \newpage
 
@@ -136,7 +141,7 @@ Exceptions & Ride is already full, passenger has a ride that is occurring 30 min
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{"JOIN SHARED RIDE"}
 \end{figure}
 \newpage
 
@@ -162,7 +167,7 @@ Exceptions & Ride is occurring in 30 minutes, other users have already joined th
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[width=\textwidth]{"CANCEL RESERVATION"}
 \end{figure}
 \newpage
 
@@ -188,7 +193,7 @@ Exceptions & Departure time is in fifteen minutes.\\
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{"LEAVE SHARED RIDE"}
 \end{figure}
 \newpage
 
@@ -214,7 +219,7 @@ Exceptions & none \\
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[width=\textwidth]{"SET AVAILABILITY"}
 \end{figure}
 \newpage
 
@@ -240,7 +245,7 @@ Exceptions & Driver doesn't answer in time\\
 \end {tabular}
 \begin{figure}[h!]
 	\centering
-	%	\includegraphics[height=0.75\textwidth]{Sig}
+	\includegraphics[height=0.75\textwidth]{"ACCEPT REQUEST"}
 \end{figure}
 \newpage
 

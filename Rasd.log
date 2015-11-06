@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  6 NOV 2015 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.10.22)  6 NOV 2015 16:38
 entering extended mode
 **Rasd.tex
 (Rasd.tex
@@ -262,7 +262,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 ...ine {5.2.2}Login}{34}{subsubsection.5.2.2}
+l.40 ...ine {5.2.2}Login}{35}{subsubsection.5.2.2}
                                                    [1])
 \tf@toc=\write4
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
@@ -551,111 +551,187 @@ hirty
 
 
 ]) [32] (uml.tex
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 5--30
+<Images/UseCaseDiagram.jpg, id=481, 1019.81pt x 742.775pt>
+File: Images/UseCaseDiagram.jpg Graphic file (type jpg)
+
+<use Images/UseCaseDiagram.jpg>
+Package pdftex.def Info: Images/UseCaseDiagram.jpg used on input line 5.
+(pdftex.def)             Requested size: 390.0pt x 284.05951pt.
+
+<Images/REGISTRATION.jpg, id=482, 498.86375pt x 732.7375pt>
+File: Images/REGISTRATION.jpg Graphic file (type jpg)
+
+<use Images/REGISTRATION.jpg>
+Package pdftex.def Info: Images/REGISTRATION.jpg used on input line 32.
+(pdftex.def)             Requested size: 199.13852pt x 292.5pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 9--34
 []
  []
 
 [33
 
 
-]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 33--57
+ <./Images/UseCaseDiagram.jpg>] [34 <./Images/REGISTRATION.jpg>]
+<Images/LOGIN.jpg, id=491, 746.79pt x 646.415pt>
+File: Images/LOGIN.jpg Graphic file (type jpg)
+ <use Images/LOGIN.jpg>
+Package pdftex.def Info: Images/LOGIN.jpg used on input line 59.
+(pdftex.def)             Requested size: 337.92117pt x 292.5pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 37--61
 []
  []
 
-[34]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 60--84
+[35 <./Images/LOGIN.jpg>]
+<Images/"TAXI REQUEST".jpg, id=497, 1037.8775pt x 893.3375pt>
+File: Images/"TAXI REQUEST".jpg Graphic file (type jpg)
+
+<use Images/"TAXI REQUEST".jpg>
+Package pdftex.def Info: Images/"TAXI REQUEST".jpg used on input line 86.
+(pdftex.def)             Requested size: 339.82423pt x 292.5pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 64--88
 []
  []
 
-[35]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 87--113
+[36 <./Images/TAXI REQUEST.jpg>]
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 91--113
+[] 
+ []
+
+[37] <Images/"TAXI RESERVATION".jpg, id=506, 965.6075pt x 1447.4075pt>
+File: Images/"TAXI RESERVATION".jpg Graphic file (type jpg)
+
+<use Images/"TAXI RESERVATION".jpg>
+Package pdftex.def Info: Images/"TAXI RESERVATION".jpg used on input line 116.
+(pdftex.def)             Requested size: 312.00119pt x 467.66325pt.
+ [38 <./Images/TAXI RESERVATION.jpg>]
+<Images/"JOIN SHARED RIDE".jpg, id=511, 472.76625pt x 402.00188pt>
+File: Images/"JOIN SHARED RIDE".jpg Graphic file (type jpg)
+
+<use Images/"JOIN SHARED RIDE".jpg>
+Package pdftex.def Info: Images/"JOIN SHARED RIDE".jpg used on input line 144.
+(pdftex.def)             Requested size: 343.98392pt x 292.5pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 121--146
 []
  []
 
-[36]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 116--141
+[39 <./Images/JOIN SHARED RIDE.jpg>]
+<Images/"CANCEL RESERVATION".jpg, id=516, 750.805pt x 646.415pt>
+File: Images/"CANCEL RESERVATION".jpg Graphic file (type jpg)
+
+<use Images/"CANCEL RESERVATION".jpg>
+Package pdftex.def Info: Images/"CANCEL RESERVATION".jpg used on input line 170
+.
+(pdftex.def)             Requested size: 390.0pt x 335.78265pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 149--172
 []
  []
 
-[37]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 144--167
+[40 <./Images/CANCEL RESERVATION.jpg>]
+<Images/"LEAVE SHARED RIDE".jpg, id=521, 746.79pt x 446.66875pt>
+File: Images/"LEAVE SHARED RIDE".jpg Graphic file (type jpg)
+
+<use Images/"LEAVE SHARED RIDE".jpg>
+Package pdftex.def Info: Images/"LEAVE SHARED RIDE".jpg used on input line 196.
+
+(pdftex.def)             Requested size: 489.04277pt x 292.5pt.
+
+Overfull \hbox (99.04277pt too wide) in paragraph at lines 196--197
+ [][] 
+ []
+
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 175--198
 []
  []
 
-[38]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 170--193
+[41 <./Images/LEAVE SHARED RIDE.jpg>]
+<Images/"SET AVAILABILITY".jpg, id=527, 746.79pt x 358.33875pt>
+File: Images/"SET AVAILABILITY".jpg Graphic file (type jpg)
+
+<use Images/"SET AVAILABILITY".jpg>
+Package pdftex.def Info: Images/"SET AVAILABILITY".jpg used on input line 222.
+(pdftex.def)             Requested size: 390.0pt x 187.13551pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 201--224
 []
  []
 
-[39]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 196--219
+[42 <./Images/SET AVAILABILITY.jpg>]
+<Images/"ACCEPT REQUEST".jpg, id=532, 746.79pt x 575.14874pt>
+File: Images/"ACCEPT REQUEST".jpg Graphic file (type jpg)
+
+<use Images/"ACCEPT REQUEST".jpg>
+Package pdftex.def Info: Images/"ACCEPT REQUEST".jpg used on input line 248.
+(pdftex.def)             Requested size: 379.79811pt x 292.5pt.
+
+Overfull \hbox (3.88582pt too wide) in paragraph at lines 227--250
 []
  []
 
-[40]
-Overfull \hbox (3.88582pt too wide) in paragraph at lines 222--245
-[]
- []
-
-[41] <Images/class_diagram.jpg, id=519, 1110.1475pt x 658.46pt>
+[43 <./Images/ACCEPT REQUEST.jpg>]
+<Images/class_diagram.jpg, id=537, 1110.1475pt x 658.46pt>
 File: Images/class_diagram.jpg Graphic file (type jpg)
 
 <use Images/class_diagram.jpg>
-Package pdftex.def Info: Images/class_diagram.jpg used on input line 250.
+Package pdftex.def Info: Images/class_diagram.jpg used on input line 255.
 (pdftex.def)             Requested size: 390.0pt x 231.31847pt.
 
-Overfull \hbox (18.27759pt too wide) in paragraph at lines 250--251
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 255--256
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-[42 <./Images/class_diagram.jpg>]
-<Images/Request.jpg, id=524, 862.22125pt x 163.61125pt>
+[44 <./Images/class_diagram.jpg>]
+<Images/Request.jpg, id=542, 862.22125pt x 163.61125pt>
 File: Images/Request.jpg Graphic file (type jpg)
 
 <use Images/Request.jpg>
-Package pdftex.def Info: Images/Request.jpg used on input line 258.
+Package pdftex.def Info: Images/Request.jpg used on input line 263.
 (pdftex.def)             Requested size: 390.0pt x 74.00385pt.
 
-Overfull \hbox (18.27759pt too wide) in paragraph at lines 258--259
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 263--264
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-<Images/reservation.jpg, id=525, 1479.5275pt x 523.9575pt>
+<Images/reservation.jpg, id=543, 1479.5275pt x 523.9575pt>
 File: Images/reservation.jpg Graphic file (type jpg)
 
 <use Images/reservation.jpg>
-Package pdftex.def Info: Images/reservation.jpg used on input line 264.
+Package pdftex.def Info: Images/reservation.jpg used on input line 269.
 (pdftex.def)             Requested size: 390.0pt x 138.11253pt.
 
-Overfull \hbox (18.27759pt too wide) in paragraph at lines 264--265
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 269--270
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-[43 <./Images/Request.jpg> <./Images/reservation.jpg>]
-<Images/taxidriver_statechart.jpg, id=532, 822.07124pt x 498.86375pt>
+[45 <./Images/Request.jpg> <./Images/reservation.jpg>]
+<Images/taxidriver_statechart.jpg, id=550, 822.07124pt x 498.86375pt>
 File: Images/taxidriver_statechart.jpg Graphic file (type jpg)
 
 <use Images/taxidriver_statechart.jpg>
 Package pdftex.def Info: Images/taxidriver_statechart.jpg used on input line 27
-0.
+5.
 (pdftex.def)             Requested size: 390.0pt x 236.66588pt.
 
-Overfull \hbox (18.27759pt too wide) in paragraph at lines 270--271
+Overfull \hbox (18.27759pt too wide) in paragraph at lines 275--276
  []\OT1/cmr/m/n/12 ++[] 
  []
 
-) [44 <./Images/taxidriver_statechart.jpg>] (alloy.tex
-<Images/Sig.png, id=538, 277.78781pt x 377.91188pt>
+) [46 <./Images/taxidriver_statechart.jpg>] (alloy.tex
+<Images/Sig.png, id=556, 277.78781pt x 377.91188pt>
 File: Images/Sig.png Graphic file (type png)
  <use Images/Sig.png>
 Package pdftex.def Info: Images/Sig.png used on input line 8.
 (pdftex.def)             Requested size: 215.00356pt x 292.5pt.
 
-[45
+[47
 
 
- <./Images/Sig.png>] <Images/Facts.png, id=544, 624.83438pt x 375.65344pt>
+ <./Images/Sig.png>] <Images/Facts.png, id=563, 624.83438pt x 375.65344pt>
 File: Images/Facts.png Graphic file (type png)
 
 <use Images/Facts.png>
@@ -666,7 +742,7 @@ Overfull \hbox (31.6592pt too wide) in paragraph at lines 16--17
  [][] 
  []
 
-[46 <./Images/Facts.png>] <Images/Assert.png, id=550, 614.295pt x 164.11313pt>
+[48 <./Images/Facts.png>] <Images/Assert.png, id=569, 614.295pt x 164.11313pt>
 File: Images/Assert.png Graphic file (type png)
 
 <use Images/Assert.png>
@@ -677,36 +753,36 @@ Overfull \hbox (117.00119pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-[47 <./Images/Assert.png>]
-<Images/Predicates.png, id=557, 431.36156pt x 469.00218pt>
+[49 <./Images/Assert.png>]
+<Images/Predicates.png, id=575, 431.36156pt x 469.00218pt>
 File: Images/Predicates.png Graphic file (type png)
 
 <use Images/Predicates.png>
 Package pdftex.def Info: Images/Predicates.png used on input line 30.
 (pdftex.def)             Requested size: 390.0pt x 424.0446pt.
- [48 <./Images/Predicates.png>]
-<Images/Show.png, id=562, 1403.99532pt x 660.21657pt>
+ [50 <./Images/Predicates.png>]
+<Images/Show.png, id=580, 1403.99532pt x 660.21657pt>
 File: Images/Show.png Graphic file (type png)
  <use Images/Show.png>
 Package pdftex.def Info: Images/Show.png used on input line 38.
 (pdftex.def)             Requested size: 390.0pt x 183.38855pt.
 
-[49 <./Images/Show.png>]
-<Images/ShowShared.png, id=568, 895.84688pt x 511.15968pt>
+[51 <./Images/Show.png>]
+<Images/ShowShared.png, id=586, 895.84688pt x 511.15968pt>
 File: Images/ShowShared.png Graphic file (type png)
 
 <use Images/ShowShared.png>
 Package pdftex.def Info: Images/ShowShared.png used on input line 45.
 (pdftex.def)             Requested size: 390.0pt x 222.52425pt.
- [50 <./Images/ShowShared.png>]
-<Images/ShowRides.png, id=574, 1245.9047pt x 552.56438pt>
+ [52 <./Images/ShowShared.png>]
+<Images/ShowRides.png, id=592, 1245.9047pt x 552.56438pt>
 File: Images/ShowRides.png Graphic file (type png)
 
 <use Images/ShowRides.png>
 Package pdftex.def Info: Images/ShowRides.png used on input line 51.
 (pdftex.def)             Requested size: 390.0pt x 172.9626pt.
- [51 <./Images/ShowRides.png>]) (appendix.tex)
-[52
+ [53 <./Images/ShowRides.png>]) (appendix.tex)
+[54
 
 
 ]
@@ -721,10 +797,10 @@ Package rerunfilecheck Info: File `Rasd.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 46.
  ) 
 Here is how much of TeX's memory you used:
- 5669 strings out of 493698
- 83806 string characters out of 3144382
+ 5721 strings out of 493698
+ 85260 string characters out of 3144382
  169110 words of memory out of 3000000
- 8772 multiletter control sequences out of 15000+200000
+ 8812 multiletter control sequences out of 15000+200000
  9284 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  29i,9n,33p,1213b,500s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -733,9 +809,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Rasd.pdf (54 pages, 1700898 bytes).
+Output written on Rasd.pdf (56 pages, 2225409 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
- 126 named destinations out of 1000 (max. 500000)
- 602 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 658 PDF objects out of 1000 (max. 8388607)
+ 128 named destinations out of 1000 (max. 500000)
+ 652 words of extra memory for PDF output out of 10000 (max. 10000000)
 
