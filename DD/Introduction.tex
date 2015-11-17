@@ -1,11 +1,53 @@
 \section{Introduction}
 
 \subsection{Purpose}
+The goal of this Design Document is to explain the design choice made during the architectural analysis and the functionalities that will be developed.
 
 \subsection{Scope}
+The aim of the Design Document is to present the main architecture of My Taxi Service application. The structure will be based on the requirements analysis we made in the RASD document. 
 
 \subsection{Definitions, Acronyms, Abbreviations}
+\subsubsection{Definitions}
+\begin{description}
+	\item [Visitor] Someone who visits my taxi service application's website but it's not logged in
+	\item [User] Someone who is registered and logged in my taxi service application
+	\item [Passenger] A type of logged user, who uses the application to call a taxi
+	\item [Taxi driver] Another type of logged user, who uses the application to answer calls from the system
+\end{description}
+
+\subsubsection{Acronyms}
+\begin{description}
+	\item[DBMS] Database Management System.
+	\item[JEE] Java Enterprise Edition.
+	\item[API]Application Programming Interface.
+	\item[ER] Entity-Relational Model.
+	\item[EJB] Enterprise Java Bean.
+	\item[HTML] Hypertext Markup Language.
+	\item[HTTP] Hypertext Transfer Protocol.
+	\item[JDBC] Java Database Connectivity.
+	\item[UML] Unified Modeling Language.
+	\item[UX] User eXperience.
+	\item[MVC] Model View Controller.
+	\item[JPA] Java Persistence API.
+	\item[XHTML] eXtensible Hypertext Markup Language.
+\end{description}
+
+\subsubsection{Abbreviations}
 
 \subsection{Reference Documents}
+\begin{itemize}
+	\item Structure of the design document.pdf
+	\item ISO/IEC/IEEE 42010 Systems and software engineering — Architecture description
+	\item IEEE Std 1016\textsuperscript{tm}-2009 IEEE Standard for Information Technology—Systems Design — Software Design Descriptions
+\end{itemize}
 
 \subsection{Document Structure}
+The document is structured in six parts
+\begin{enumerate}
+	\item Introduction
+	\item Architectural Design
+	\item Algorithm Design
+	\item User Interface Design
+	\item Requirements Traceability
+	\item References
+\end{enumerate}
