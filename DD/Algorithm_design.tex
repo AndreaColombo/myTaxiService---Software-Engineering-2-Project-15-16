@@ -1,1 +1,10 @@
 \section{Algorithm Design}
+
+Here we will present the algorithm that will be used to create taxi queues:
+\newline
+\newline
+First we divide the city zone in N areas, approximately equals one to each other. Then we assign a certain number of taxis to each zone, thus meaning that the taxi will work in the area he's assigned to. The number of taxis to assign to each zone will be computed dynamically based on the number of request that are coming from a certain zone, we'll call it request number, it may change from one day to another, or even from one period of time to another. The algorithm will always try to maintain the number of taxis in a zone equals to its request number. 
+
+If a taxi, while taking care of a request, leave his initial zone he will be automatically assigned to the zone he's into at the end of the ride, while assigning another taxi to the zone left by the first taxi, in order to have balance between zones. The choice of the taxi to be assigned to the zone will be made by minimizing the distance it will have to travel to enter the designated zone. If a zone's number of taxis drops below its request number the system will assign another taxi to that zone recursively till a point of balance is found. We will take preemptive measures to avoid infinite loops.
+
+The taxis will be organized in queues, each queue assigned to a zone. When a request arrives from a zone it will be forwarded to the first taxi in queues, if he accept the taxi will be removed from the queue and will be placed at the end of the queue in the zone he will end up at the end of the ride. If he refuse it instead he will be placed at the end of the queue. If a taxi is moved to one zone to another he will take the position in the new queue equals to its previous position.
