@@ -16,7 +16,7 @@
 	On the server side we have the ride manager component that will take care of the taxi management side of our application, it will provide an interface to the client. The user manager component will provide functions to manage user account's, this component too will provide an interface to the client, finally the database will hold accounts', taxis' and rides' informations, it will be accessible by the other two server components.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=\textwidth]{Model1__high_lvl_comp_1.png}
+		\includegraphics[width=\textwidth]{Component/Model1__high_lvl_comp_1.png}
 	\end{figure}
 	\newpage
 	
@@ -26,7 +26,7 @@
 	The client is composed by a main component which will have all the basics functions: create account, make request, make reservation; a user interface component that will serve to communicate with the user and finally a connection component that will take care of communicating with the server.
 		\begin{figure}[h!]
 			\centering
-			\includegraphics[width=\textwidth]{Model5__client_2.png}
+			\includegraphics[width=\textwidth]{Component/Model5__client_2.png}
 		\end{figure}
 		\newpage
 
@@ -35,7 +35,7 @@
 		The request handler will also take care of join and cancel reservation requests from a passenger. 
 		\begin{figure}[h!]
 			\centering
-			\includegraphics[width=\textwidth]{Model6__ride_mgr_3.png}
+			\includegraphics[width=\textwidth]{Component/Model6__ride_mgr_3.png}
 		\end{figure}
 		\newpage
 
@@ -43,7 +43,7 @@
 		The user manager will have a account manager component which will provide login and registration functionalities, an account creator component to create new accounts and a database access component.
 		\begin{figure}[h!]
 			\centering
-			\includegraphics[width=\textwidth]{Model7__user_mgr_4.png}
+			\includegraphics[width=\textwidth]{Component/Model7__user_mgr_4.png}
 		\end{figure}
 		\newpage
 	
@@ -59,12 +59,46 @@ This diagram shows how the whole system will be deployed.
 The client communicates via HTTPS to the web server and the application server (both web and application servers are installed in the same machine), the web server is responsible to generate web pages, the application server contains all the user and taxi management application's logic and in the end the database.
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=\textwidth]{deployment.png}
+		\includegraphics[width=\textwidth]{Deployment/deployment.png}
 	\end{figure}
 	\newpage
 
 \subsection{Runtime view}
-%sequence diagram tra componenti
+	\subsubsection{Login}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{Sequence/login.png}
+	\end{figure}
+	\newpage
+	
+	\subsubsection{Registration}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{Sequence/registration.png}
+	\end{figure}
+	\newpage
+	
+	\subsubsection{Taxi request}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{Sequence/request.png}
+	\end{figure}
+	\newpage
+	
+	\subsubsection{Join ride}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{Sequence/join.png}
+	\end{figure}
+	\newpage		
+
+	\subsubsection{Accept request}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=\textwidth]{Sequence/accept_request.png}
+	\end{figure}
+	\newpage		
+
 
 \subsection{Component interfaces}
 In this section we provide a detailed description of the interfaces we use.
