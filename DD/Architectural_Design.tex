@@ -32,6 +32,7 @@
 
 	\subsubsection{Ride manager component}
 		The ride manager will have a request handler that will take requests or reservation from passengers and forward it to taxi drivers, once a driver has accepted it the ride will be created through the ride generator component. The taxi will be found using the taxi queues manager component. There will be also a connection manager component and a database access component used to access the database.
+		The request handler will also take care of join and cancel reservation requests from a passenger. 
 		\begin{figure}[h!]
 			\centering
 			\includegraphics[width=\textwidth]{Model6__ride_mgr_3.png}
