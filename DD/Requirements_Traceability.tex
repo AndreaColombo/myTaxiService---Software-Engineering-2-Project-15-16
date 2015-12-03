@@ -1,1 +1,8 @@
 \section{Requirements Traceability}
+In this section we will describe how the architecture designed in the previous sections will meet the requirements listed in the RASD document
+
+\begin{enumerate}
+	\item \textbf{Registration and login}: the user manager component will provide functionalities to allow users to register and log in to the system.
+	\item \textbf{Request and reserve a taxi, join a shared ride}: the ride manager component will allow users to request and reserve a taxi and join a shared ride, for a more detailed description you can look at the runtime view section of this document.
+	\item \textbf{Taxi queues management and taxi driver actions} The ride manager component, specifically the taxi queues manager component will allow drivers to set their availability and answering a call from the system. This component will also run the algorithm described in the algorithm design section to provide a fair management of taxi queues in order to satisfy both drivers and passengers.
+\end{enumerate}
