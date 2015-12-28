@@ -1,7 +1,6 @@
 \section{Assigned Methods}
-\subsection{First Method: getConstructor} \\ \\
-
-	/** Returns a wrapped constructor element for the specified argument types 
+\subsection{First Method: getConstructor} 
+	 * Returns a wrapped constructor element for the specified argument types 
 	 * in the class with the specified name.  If the specified class name is 
 	 * a persistence-capable key class name which corresponds to a bean 
 	 * with an unknown primary key class a dummy constructor will also be 
@@ -11,8 +10,8 @@
 	 * to be checked
 	 * @param argTypeNames the fully qualified names of the argument types
 	 * @return the constructor element
-	 * @see #getClass
-	 */
+	 * @see getClass
+	 
 	 
 \begin{lstlisting}	public Object getConstructor (final String className, String[] argTypeNames)
 	{
@@ -41,8 +40,7 @@
 	
 	
 \newpage
-\subsection{Second Method: getMethod} \\ \\
-
+\subsection{Second Method: getMethod} 
 
 /** Returns a wrapped method element for the specified method name and \\
 	 * argument types in the class with the specified name.  If the \\
@@ -61,7 +59,7 @@
 	 * @param methodName the name of the method to be checked
 	 * @param argTypeNames the fully qualified names of the argument types
 	 * @return the method element
-	 * @see #getClass
+	 * @see getClass
 	 */
 \begin{lstlisting}
 	
@@ -112,8 +110,7 @@
 \end{lstlisting}
 
 \newpage
-\subsection{Third Method: getFields} \\ \\
-
+\subsection{Third Method: getFields}
 /** Returns a list of names of all the declared field elements in the 
 	 * class with the specified name.  If the specified className represents 
 	 * a persistence-capable class, the list of field names from the  
@@ -182,7 +179,7 @@
 
 
 \newpage
-\subsection{Fourth Method: getField} \\ \\
+\subsection{Fourth Method: getField} 
 	/** Returns a wrapped field element for the specified fieldName in the 
 	 * class with the specified className.  If the specified className 
 	 * represents a persistence-capable class, a field representing the 
@@ -198,8 +195,7 @@
 	 * @return the wrapped field element for the specified fieldName
 	 */
 	 
-\begins{lstlisting}
-\begin{code}
+\begin{lstlisting}
 public Object getField (final String className, String fieldName)
 	{
 		String testClass = className;
@@ -277,12 +273,11 @@ public Object getField (final String className, String fieldName)
 
 		return returnObject;
 	}
-\end{code}
 \end{lstlisting}
 	
 
 \newpage
-\subsection{Fifth Method: getFieldType} \\ \\
+\subsection{Fifth Method: getFieldType} 
 	/** Returns the field type for the specified fieldName in the class
 	 * with the specified className.  This method is overrides the one in 
 	 * Model in order to do special handling for non-collection relationship 
@@ -300,7 +295,9 @@ public Object getField (final String className, String fieldName)
 	 * @param fieldName the name of the field to be checked
 	 * @return the field type for the specified fieldName
 	 */
-	public String getFieldType (String className, String fieldName)
+
+\begin{lstlisting}
+		public String getFieldType (String className, String fieldName)
 	{
 		String returnType = super.getFieldType(className, fieldName);
 
@@ -330,11 +327,11 @@ public Object getField (final String className, String fieldName)
 
 		return returnType;
 	}
-
+\end{lstlisting}
 
 
 \newpage
-\subsection{Sixth Method: getFieldWrapper} \\ \\non c'è commento.. asd
+\subsection{Sixth Method: getFieldWrapper} non c'è commento.. asd
 
 \begin{lstlisting}
 
@@ -371,3 +368,4 @@ private MemberWrapper getFieldWrapper (String className, String fieldName)
 	}
 
 \end{lstlisting}
+
