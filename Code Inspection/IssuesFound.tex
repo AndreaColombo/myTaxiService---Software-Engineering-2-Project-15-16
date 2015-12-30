@@ -1,0 +1,67 @@
+\section{Issues found}
+In this section we will list all the issues found by applying the checklist provided to the methods and classes we were assigned.
+
+\subsection{DeploymentDescriptorModel class issues}
+\begin{itemize}
+	\item In several lines of the class provided the indentation is done by tab and not by space, although it is equal to 4 spaces in every line.
+	\item The bracing style chosen is Allman style and is consistent in every line except lines 111, 112, 918 to 922 and 927, where fact curly braces and statement between them is written in one line only. 
+	\item No line exceed the 80 characters limit except line 95 and line 276, although they not exceed the 120 characters limit.
+	\item The DeploymentDescriptorModel.java file contains the public class DeploymentDescriptorModel that is the first class declared, and the private class MemberWrapper.
+	\item MemberWrapper class is not documented properly.
+	\item The javadoc is missing for the following methods: getEjbName, getPersistenceKeyClassType, getFieldWrapper, updateFieldWrapper.
+	\item Variables are declared in the wrong order, first are declared non-static instance variables and then static class variables.
+	\item Methods are grouped properly by functionalities.
+	\item getField and updateFielWrapper methods are too long, they should split in two or more auxiliary methods.
+\end{itemize}
+
+\subsection{getConstructor method issues}
+\begin{itemize}
+	\item Line 285: if statement with only one statement to execute without curly braces.
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Method doesn't make use of arrays.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item There are switch statements or loop.
+	\item There is no use of files.
+\end{itemize}
+
+\subsection{getMethod method issues}
+\begin{itemize}
+	\item Line 349: if statement with only one statement to execute without curly braces.
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Method doesn't make use of arrays.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item There are switch statements or loop.
+	\item There is no use of files.
+\end{itemize}
+
+\subsection{getFields method issues}
+\begin{itemize}
+	\item Line 403: while loop with only one statement to execute without curly braces.
+	\item Line 435: if statement with only one statement to execute without curly braces.
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Arrays are implemented correctly, there shouldn't be any indexes error since an iterator is used.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item All cases are addressed with break statement.
+	\item There is no use of files.
+\end{itemize}
+
+\subsection{getField method issues}
+
+\subsection{getFieldType method issues}
+
+\subsection{getFieldWrapper method issues}

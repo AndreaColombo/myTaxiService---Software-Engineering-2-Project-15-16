@@ -2,6 +2,9 @@
 \subsection{DeploymentDescriptorModel class}
 The main function of this class is to augment the java metadata for a non-existent persistence-capable java/class file using the deployment descriptor. It is primarily used at ejbc time, though it could be used at any time as long as sufficient mapping and deployment descriptor information is available.
 
+\subsection{MemberWrapper class}
+This class is a utility class used to wrap an element into an object.
+
 \subsection{getConstructor method}
 The role of this method is to provide a wrapped constructor element for the class identified by the className parameter, this works only if the class isn't a persistence-capable key class that corresponds to a bean with unknown primary key, in this case a dummy constructor is returned. For a more detailedm description and implementation see the javadoc related to this method.
 
