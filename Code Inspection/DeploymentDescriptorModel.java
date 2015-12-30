@@ -273,12 +273,9 @@ public class DeploymentDescriptorModel extends RuntimeModel
 	{
 		Object returnObject = null;
 
-		if ((NameMapper.PRIMARY_KEY_FIELD == 
-			getPersistenceKeyClassType(className)) && 
-			Arrays.equals(argTypeNames, NO_ARGS))
+		if ((NameMapper.PRIMARY_KEY_FIELD == getPersistenceKeyClassType(className)) && Arrays.equals(argTypeNames, NO_ARGS))
 		{
-			returnObject = new MemberWrapper(className, null, Modifier.PUBLIC, 
-				(Class)getClass(className));
+			returnObject = new MemberWrapper(className, null, Modifier.PUBLIC, (Class)getClass(className));
 		}
 
 		if (returnObject == null)
@@ -319,7 +316,7 @@ public class DeploymentDescriptorModel extends RuntimeModel
 
 		if (isPCClassName(className))
 		{
-			if ((methodName.equals("readObject") && 	// NOI18N
+			if ((methodName.equals("readObject") && // NOI18N
                     Arrays.equals(argTypeNames, getReadObjectArgs())) ||
 				(methodName.equals("writeObject") && 	// NOI18N
                         Arrays.equals(argTypeNames, getWriteObjectArgs())))
@@ -411,13 +408,10 @@ public class DeploymentDescriptorModel extends RuntimeModel
 		else
 		{
 			NameMapper nameMapper = getNameMapper();
-			String ejbName = 
-				nameMapper.getEjbNameForPersistenceKeyClass(className);
-
+			String ejbName = nameMapper.getEjbNameForPersistenceKeyClass(className);
 			switch (getPersistenceKeyClassType(className))
 			{
-				// find the field names we need in the corresponding 
-				// ejb key class
+				// find the field names we need in the corresponding ejb key class
 				case NameMapper.USER_DEFINED_KEY_CLASS:
 					testClass = nameMapper.getKeyClassForEjbName(ejbName);
 					break;

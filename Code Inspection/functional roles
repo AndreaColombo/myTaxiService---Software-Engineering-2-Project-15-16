@@ -1,0 +1,21 @@
+\section{Functional Roles}
+\subsection{DeploymentDescriptorModel class}
+This class  uses the deployment descriptor to augment the java metadata for a non-existent persistence-capable java/class file.  It is primarily used at ejbc time, though it could be used at any time as long as sufficient mapping and deployment descriptor information is available.
+
+\subsection{getConstructor method}
+This method returns a wrapped constructor element for the specified argument types in the class with the specified name. The method looks for the class identified with the className parameter and check if it is a persistence capable class which corresponds to a bean with an unknown primary key class, if it is the method returns a wrapped public object named with the className parameter; otherwise the method will call superclass getConstructor method and wrap it before he returns it to the caller.
+
+\subsection{getMethod method}
+This method returns a wrapped method element for the specified method name and argument types in the class with the specified name. First the method will look for the key class type of the class named with the className parameter. Then the method will check if it is a persistence capable class, if it is check if the method identified by the methodName parameter is a read or write object, if it is returns a wrapped private method.
+If the class is a persistence key class which corresponds to a to a bean with an unknown primary key class or a primary key field the method checks if the method identified by the methodName parameter is a equals or hashCode method, if it is returns a dummy method.
+If none of the conditions above is verified then the method calls superclass' getMethod method, check if the returned element is a method and if it is wraps it and returns it to the caller.
+
+\subsection{getFields method}
+This method returns a list of names of all the declared field elements in the class identified by the className parameter. 
+The method check if the specified className represents a persistence-capable class, the list of field names from the corresponding ejb is returned
+
+\subsection{getField method}
+
+\subsection{getFieldType method}
+
+\subsection{getFieldWrapper method}

@@ -1,19 +1,17 @@
-\section{Assigned Methods}
-\subsection{First Method: getConstructor} 
-	 * Returns a wrapped constructor element for the specified argument types 
-	 * in the class with the specified name.  If the specified class name is 
-	 * a persistence-capable key class name which corresponds to a bean 
-	 * with an unknown primary key class a dummy constructor will also be 
-	 * returned.  Types are specified as type names for primitive type 
-	 * such as int, float or as fully qualified class names.
-	 * @param className the name of the class which contains the constructor 
-	 * to be checked
-	 * @param argTypeNames the fully qualified names of the argument types
-	 * @return the constructor element
-	 * @see getClass
-	 
-	 
-\begin{lstlisting}	public Object getConstructor (final String className, String[] argTypeNames)
+\section{Assigned class and methods}
+All the methods we were assigned belong to the same class, the DeploymentDescriptorModel class
+
+\subsection{First Method: getConstructor}
+
+\begin{lstlisting}	
+/** Returns a wrapped constructor element for the specified argument types in the class with the specified name.  If the specified class name is  a persistence-capable key class name which corresponds to a bean with an unknown primary key class a dummy constructor will also be  returned.  Types are specified as type names for primitive type such as int, float or as fully qualified class names. 
+	 @param className the name of the class which contains the constructor to be checked
+ 	 @param argTypeNames the fully qualified names of the argument types 
+	 @return the constructor element 
+	 @see #getClass
+	 */
+
+public Object getConstructor (final String className, String[] argTypeNames)
 	{
 		Object returnObject = null;
 
@@ -42,27 +40,13 @@
 \newpage
 \subsection{Second Method: getMethod} 
 
-/** Returns a wrapped method element for the specified method name and \\
-	 * argument types in the class with the specified name.  If the \\
-	 * specified className represents a persistence-capable class and \\
-	 * the requested methodName is readObject or writeObject, a dummy \\
-	 * method will be returned.  Similarly, if the specified class name is 
-	 * a persistence-capable key class name which corresponds to a bean 
-	 * with an unknown primary key class or a primary key field (in both 
-	 * cases there is no user defined primary key class) and the requested 
-	 * method is equals or hashCode, a dummy method will also be returned.  
-	 * Types are specified as type names for primitive type such as int, 
-	 * float or as fully qualified class names.  Note, the method does not 
-	 * return inherited methods.
-	 * @param className the name of the class which contains the method 
-	 * to be checked
-	 * @param methodName the name of the method to be checked
-	 * @param argTypeNames the fully qualified names of the argument types
-	 * @return the method element
-	 * @see getClass
-	 */
 \begin{lstlisting}
-	
+/** Returns a wrapped method element for the specified method name and  argument types in the class with the specified name.  If the specified className represents a persistence-capable class and the requested methodName is readObject or writeObject, a dummy method will be returned.  Similarly, if the specified class name is a persistence-capable key class name which corresponds to a bean with an unknown primary key class or a primary key field (in both cases there is no user defined primary key class) and the requested method is equals or hashCode, a dummy method will also be returned. Types are specified as type names for primitive type such as int, float or as fully qualified class names.  Note, the method does not return inherited methods. @param className the name of the class which contains the method to be checked @param methodName the name of the method to be checked
+	 @param argTypeNames the fully qualified names of the argument types
+	 @return the method element
+	 @see getClass
+	 */
+	 
 	public Object getMethod (final String className, final String methodName,
 		String[] argTypeNames)
 	{
@@ -111,16 +95,12 @@
 
 \newpage
 \subsection{Third Method: getFields}
-/** Returns a list of names of all the declared field elements in the 
-	 * class with the specified name.  If the specified className represents 
-	 * a persistence-capable class, the list of field names from the  
-	 * corresponding ejb is returned (even if there is a Class object 
-	 * available for the persistence-capable).
-	 * @param className the fully qualified name of the class to be checked 
-	 * @return the names of the field elements for the specified class
-	 */
+
 \begin{lstlisting}
-	
+/** Returns a list of names of all the declared field elements in the class with the specified name.  If the specified className represents a persistence-capable class, the list of field names from the corresponding ejb is returned (even if there is a Class object available for the persistence-capable).
+	 @param className the fully qualified name of the class to be checked 
+	 @return the names of the field elements for the specified class
+	 */
 	public List getFields (final String className)
 	{
 		final EjbCMPEntityDescriptor descriptor = getCMPDescriptor(className);
@@ -180,22 +160,13 @@
 
 \newpage
 \subsection{Fourth Method: getField} 
-	/** Returns a wrapped field element for the specified fieldName in the 
-	 * class with the specified className.  If the specified className 
-	 * represents a persistence-capable class, a field representing the 
-	 * field in the abstract bean class for the corresponding ejb is always 
-	 * returned (even if there is a Field object available for the 
-	 * persistence-capable).  If there is an ejb name and an abstract bean
-	 * class with the same name, the abstract bean class which is associated
-	 * with the ejb will be used, not the abstract bean class which  
-	 * corresponds to the supplied name (directly).
-	 * @param className the fully qualified name of the class which contains
-	 * the field to be checked
-	 * @param fieldName the name of the field to be checked
-	 * @return the wrapped field element for the specified fieldName
-	 */
 	 
 \begin{lstlisting}
+/** Returns a wrapped field element for the specified fieldName in the class with the specified className.  If the specified className represents a persistence-capable class, a field representing the field in the abstract bean class for the corresponding ejb is always returned (even if there is a Field object available for the persistence-capable).  If there is an ejb name and an abstract bean class with the same name, the abstract bean class which is associated with the ejb will be used, not the abstract bean class which corresponds to the supplied name (directly).
+	 @param className the fully qualified name of the class which contains the field to be checked
+	 @param fieldName the name of the field to be checked
+	 @return the wrapped field element for the specified fieldName
+	 */
 public Object getField (final String className, String fieldName)
 	{
 		String testClass = className;
@@ -278,25 +249,14 @@ public Object getField (final String className, String fieldName)
 
 \newpage
 \subsection{Fifth Method: getFieldType} 
-	/** Returns the field type for the specified fieldName in the class
-	 * with the specified className.  This method is overrides the one in 
-	 * Model in order to do special handling for non-collection relationship 
-	 * fields.  If it's a generated relationship that case, the returned 
-	 * MemberWrapper from getField contains a type of the abstract bean and 
-	 * it's impossible to convert that into the persistence capable class name, so here 
-	 * that case is detected, and if found, the ejb name is extracted and 
-	 * used to find the corresponding persistence capable class.  For a 
-	 * relationship which is of type of the local interface, we do the 
-	 * conversion from local interface to persistence-capable class.  In the 
-	 * case of a collection relationship (generated or not), the superclass' 
-	 * implementation which provides the java type is sufficient.
-	 * @param className the fully qualified name of the class which contains
-	 * the field to be checked
-	 * @param fieldName the name of the field to be checked
-	 * @return the field type for the specified fieldName
-	 */
 
 \begin{lstlisting}
+/** Returns the field type for the specified fieldName in the class with the specified className. This method is overrides the one in Model in order to do special handling for non-collection relationship fields.  If it's a generated relationship that case, the returned MemberWrapper from getField contains a type of the abstract bean and it's impossible to convert that into the persistence capable class name, so here that case is detected, and if found, the ejb name is extracted and used to find the corresponding persistence capable class.  For a relationship which is of type of the local interface, we do the conversion from local interface to persistence-capable class.  In the case of a collection relationship (generated or not), the superclass' implementation which provides the java type is sufficient.
+	 @param className the fully qualified name of the class which contains the field to be checked
+	 @param fieldName the name of the field to be checked
+	 @return the field type for the specified fieldName
+	*/
+
 		public String getFieldType (String className, String fieldName)
 	{
 		String returnType = super.getFieldType(className, fieldName);
@@ -329,9 +289,8 @@ public Object getField (final String className, String fieldName)
 	}
 \end{lstlisting}
 
-
 \newpage
-\subsection{Sixth Method: getFieldWrapper} non c'è commento.. asd
+\subsection{Sixth Method: getFieldWrapper}
 
 \begin{lstlisting}
 

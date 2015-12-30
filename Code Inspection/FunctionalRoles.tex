@@ -1,0 +1,21 @@
+\section{Functional Roles}
+\subsection{DeploymentDescriptorModel class}
+The main function of this class is to augment the java metadata for a non-existent persistence-capable java/class file using the deployment descriptor. It is primarily used at ejbc time, though it could be used at any time as long as sufficient mapping and deployment descriptor information is available.
+
+\subsection{getConstructor method}
+The role of this method is to provide a wrapped constructor element for the class identified by the className parameter, this works only if the class isn't a persistence-capable key class that corresponds to a bean with unknown primary key, in this case a dummy constructor is returned. For a more detailedm description and implementation see the javadoc related to this method.
+
+\subsection{getMethod method}
+This method, similarly to the previous one, is used to get a wrapped constructor element for the class identified by the className parameter. Also in this case if the class is a persistence capable key class which corresponds to a bean with unknown primary key which or a primary key field, and the method identified is a equals or hashCode name a dummy method is returned. A dummy method is returned also in the case where the class is persistence capable and the method is a read or writed object method. This method will never returns inherited methods, for this purpose is used the getInheritedMethod method.
+
+\subsection{getFields method}
+The role of this method is to return a list of names of all the declared field elements in the class identified by the className parameter. If the class represents a persistence-capable class, the list of field names from the corresponding ejb is returned.
+
+\subsection{getField method}
+The role of this method is similar to the previous one but instead this one return only one wrapped field element identified by the fieldName parameter.
+
+\subsection{getFieldType method}
+This method works as the previous one but instead this returns the field type (as a string) of a field element identified by the fieldName parameter in the specified class.
+
+\subsection{getFieldWrapper method}
+The role of this method is to provide a functionality to get a field wrapper given a field's name and type.
