@@ -14,6 +14,11 @@ In this section we will list all the issues found by applying the checklist prov
 	\item getField and updateFielWrapper methods are too long, they should split in two or more auxiliary methods.
 \end{itemize}
 
+\subsection{Member wrapper class issues}
+\begin{itemize}
+	\item The class is not documented properly
+	\item Lines 902 to 907 there is a large use of ? : operator instead of if-else statements, this makes the code much more difficult to read and understand.
+\end{itemize}
 \subsection{getConstructor method issues}
 \begin{itemize}
 	\item Line 285: if statement with only one statement to execute without curly braces.
@@ -61,7 +66,43 @@ In this section we will list all the issues found by applying the checklist prov
 \end{itemize}
 
 \subsection{getField method issues}
+\begin{itemize}
+	\item This method is too long, it should be split in two or more auxiliary methods.
+	\item Line 539-541: if-else statement with only one statement to execute without curly braces.
+	\item Line 552, if statement with only one statement to execute without curly braces.
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item All cases are addressed with break statement.
+	\item There is no use of files.
+\end{itemize}
 
 \subsection{getFieldType method issues}
+\begin{itemize}
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item There are no switch case statements
+	\item There is no use of files.
+\end{itemize}
 
 \subsection{getFieldWrapper method issues}
+\begin{itemize}
+	\item Lines are wrapped properly
+	\item The method is documented properly
+	\item There isn't commented out code.
+	\item All declarations and initializations are done in the correct manner.
+	\item All methods are called correctly.
+	\item Objects are compared correctly.
+	\item There are no computations. All assignments are done correctly and there are no implicit casts.
+	\item Line 794 to 801, there is a try-catch block but no actions are taken to handle the exception thrown.
+	\item All cases are addressed with break statement.
+\end{itemize}
