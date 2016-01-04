@@ -19,6 +19,7 @@ In this section we will list all the issues found by applying the checklist prov
 	\item The class is not documented properly
 	\item Lines 902 to 907 there is a large use of ? : operator instead of if-else statements, this makes the code much more difficult to read and understand.
 \end{itemize}
+
 \subsection{getConstructor method issues}
 \begin{itemize}
 	\item Line 285: if statement with only one statement to execute without curly braces.
@@ -28,9 +29,9 @@ In this section we will list all the issues found by applying the checklist prov
 	\item All declarations and initializations are done in the correct manner.
 	\item All methods are called correctly.
 	\item Method doesn't make use of arrays.
-	\item Objects are compared correctly.
+	\item Line: 276: two strings are compared using == operator instead of equals method.
 	\item There are no computations. All assignments are done correctly and there are no implicit casts.
-	\item There are switch statements or loop.
+	\item There are switch statements or loops.
 	\item There is no use of files.
 \end{itemize}
 
@@ -43,7 +44,7 @@ In this section we will list all the issues found by applying the checklist prov
 	\item All declarations and initializations are done in the correct manner.
 	\item All methods are called correctly.
 	\item Method doesn't make use of arrays.
-	\item Objects are compared correctly.
+	\item Line 328 and 329: two string are compared using  == operator instead of equals method.
 	\item There are no computations. All assignments are done correctly and there are no implicit casts.
 	\item There are switch statements or loop.
 	\item There is no use of files.
