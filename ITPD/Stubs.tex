@@ -1,1 +1,10 @@
 \section{Program Stubs and Test Data Required}
+
+We'll begin the integration test when the primary functions of the application are developed. It may happen that some secondary software components are not fully developed when we will begin the tests. 
+We will then need stubs and drivers for those components that still doesn't exists.
+
+\begin{description}
+	\item[Test database:] the testing environment need to include a DBMS configured in the same way it will be deployed when the whole system is complete.
+	\item[Lightweight client:] to test the business tier without a complete client application, we need a simple client that interacts with the business tier by simple HTTP requests.
+	\item[Stub of the Business Tier:] used to provide a set of data to test the web tier when the business tier is not fully developed.
+\end{description}
