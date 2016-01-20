@@ -1,32 +1,200 @@
 \section{Individual Steps and Test Description}
 
+%TODO finish this allllll
+% soprattutto le descrizioni
 
-<<<<<<< HEAD
-=======
-\begin{tabular}{l p{0.72\textwidth}}
+\subsection{Integration test cases}
+\subsubsection{Integration test case I1 - REGISTRATION} 
+\hfill \newline
+ \begin{tabular}{l p{0.72\textwidth}}
     \hline
-    \textbf{Test Procedure Identifier} & DA DEFINIRE \\
+    \textbf{Test Procedure Identifier} &  I1T1  \\
     \hline
-    \textbf{Test Item(s)} & primo agente  $\rightarrow$ secondo agente \\
+    \textbf{Test Item(s)} & Account Creator  $\rightarrow$ Database Manager\\
     \hline
-    \textbf{Input Specification} & \\
+    \textbf{Input Specification} & Create a typical and well formed Account Creator input. \\
     \hline
-    \textbf{Output Specification} & \\
+    \textbf{Output Specification} & Check if the Database Manager fulfills the tasks given by the Account Creator and if the correct methods are called in the Database Manager \\
     \hline
-    \textbf{Environmental Needs} &  \\
+    \textbf{Description} &   The test must check if every type of given methods work fine and if the Database Manager creates the account in the correct way with an INSERT. \\
     \hline
-    \textbf{Test Description} & \\
+    \textbf{Environmental Needs} & Database available \\
+    \hline
+    
+    \end{tabular}
+
+
+
+\hfill \newline \newline 
+\subsubsection{Integration test case I2 - LOGIN}
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} &  I2T1 \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Account Manager \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input.   \\
+    \hline
+    \textbf{Output Specification} & Check if the correct functions are called properly in the Account Manager\\
+    \hline
+    \textbf{Environmental Needs} & I1 succeeded, Database working \\
     \hline
 \end{tabular}
 
->>>>>>> origin/master
 
-% SIGNUP
-% LOGIN
-% DRIVER ACCEPTANCE
-% REQUEST
-% RESERVATION
-% JOIN
-% CANCEL RIDE (SUCCES O FAILURE)
-% UNJOIN (SUCCES O FAILURE)
-% DRIVER CHANGE STATUS
+\hfill \newline \newline 
+\subsubsection{Integration test case I3 - RIDE CREATION }
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I3T1 \\
+    \hline
+    \textbf{Test Item(s)} & Ride Creator	  $\rightarrow$ Database Manager\\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Ride Creator input.  \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Database Manager.\\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} &  Database available\\
+    \hline
+    \end{tabular}
+
+\hfill \newline \newline 
+\subsubsection{Integration test case I4 - REQUEST}
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I4T1 \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager $\rightarrow$ Request Handler \\
+    \hline
+    \textbf{Input Specification} & Create a typical and well formed Client Manager input.  \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Request Handler. \\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} &  Database working\\
+    \hline
+    \end{tabular}
+\hfill \newline \newline 
+\subsubsection{Integration test case I5 - RESERVATION }
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I5T1\\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Request Handler \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input.  \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Request Handler.  \\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} &  I1, I3 succeeded\\
+    \hline
+    \end{tabular}
+\hfill \newline \newline  
+\subsubsection{Integration test case I6 - JOIN } 
+\begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I6T1 \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager $\rightarrow$ Ride Manager \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input.   \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Ride Manager.\\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} &  I3, I4,I6 succeeded.\\
+    \hline
+\end{tabular}
+\hfill \newline \newline 
+\subsubsection{Integration test case I7 - UNJOIN  }
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I7T1  \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Ride Manager \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input. \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Ride Manager. \\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} &  I3, I4, I6 succeeded.\\
+    \hline
+    \end{tabular}
+\hfill \newline \newline  
+\subsubsection{Integration test case I8 - CANCEL RESERVATION }
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I8T1 \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Ride Manager \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input. \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Ride Manager. \\
+    \hline
+    \textbf{Test Description} & Tests must check every typical situation with the normal reservations and the shared rides as explained in the \texttt{RASD.pdf}  \\
+    \hline
+    \textbf{Environmental Needs} & I3 succeeded. \\
+    \hline
+\end{tabular}
+\hfill \newline \newline  
+\subsubsection{Integration test case I9 - DRIVER ACCEPTANCE/REFUSE }
+ \begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & I9T1  \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Ride Manager \\
+    \hline
+    \textbf{Input Specification} &  Create a typical and well formed Client Manager input.   \\
+    \hline
+    \textbf{Output Specification} & Check if the correct methods are called in the Ride Manager. \\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} & I4 succeeded \\
+    \hline
+\end{tabular}
+
+\hfill \newline \newline  
+\subsubsection{Integration test case I10 - DRIVER STATUS CHANGE } 
+\begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} & 10T1 \\
+    \hline
+    \textbf{Test Item(s)} & Client Manager  $\rightarrow$ Account Manager \\
+    \hline
+    \textbf{Input Specification} &  CCreate a typical and well formed Client Manager input. \\
+    \hline
+    \textbf{Output Specification} &  Check if the correct methods are called in the Account Manager.\\
+    \hline
+    \textbf{Test Description} & \\
+    \hline
+    \textbf{Environmental Needs} & - \\
+    \hline
+\end{tabular}
+
+\newpage
+\section{Test Procedures}
+\hfill \newline 
+\begin{tabular}{l p{0.72\textwidth}}
+    \hline
+    \textbf{Test Procedure Identifier} &  \\
+    \hline
+    \textbf{Purpose} & \begin{itemize}
+    	\item 
+    \end{itemize} \\
+    \hline
+    \textbf{Procedure Steps} & \\
+    \hline
+    \end{tabular}
+
+
+

@@ -18,9 +18,11 @@ We will adopt a bottom-up testing strategy, integrating first the sub-components
 We choose this strategy because the sub-components of our system are independent one to each other and they can be integrated separately.
 
 \subsection{Sequence of Component}
-Since we adopt a bottom-up integration strategy, we will start from the lower level component (database), then the components that directly access the database, thus account and rider creator, then the manager of those components and finally the user interface.
+Since we adopt a bottom-up integration strategy, we will start from the lower level component (database manager), then the components that directly access the database, thus account and rider creator, then the manager of those components and finally the user interface.
+
+%TODO questa immagine ma con "DATABASE MANAGER" al posto di database
 \begin{figure}[h]
-		\centering
-		\includegraphics{subsystem.png}
+	\centering	
+	\includegraphics[width=1.15\textwidth]{subsystem.png}
 		\caption{This flowchart show the sequence of integration of the components}
 \end{figure}
