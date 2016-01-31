@@ -1,0 +1,45 @@
+\documentclass[a4paper, 12pt, titlepage]{article}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\graphicspath{{Images/}}
+\setcounter{secnumdepth}{4}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=cyan,
+}
+%opening
+\title{
+	\begin{figure}[h]
+		\centering
+		\includegraphics{polimi_logo}
+	\end{figure}
+	Politecnico di Milano, A.A. 2015/2016 
+	\newline\newline 
+	Software Engineering 2: My Taxi Service
+	\newline
+	\textbf{P}roject \textbf{P}lan \textbf{D}ocument
+\author{Belotti Nicola 793419\\ Chioso Emanuele 791621\\ Colombo Andrea 853381}
+}	
+	
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\include{introduction}
+
+\include{Function_points}
+
+\include{Cocomo}
+
+\include{Task}
+
+\include{Risk}
+
+\include{appendix}
+
+\end{document}
