@@ -2,16 +2,27 @@
 We use cocomo model to provide an approximate cost estimation on the project and the time needed to develop the software.
 
 \subsection{Effort estimation}
-COCOMO formula for calculating the effort is $E= 2.49*EAF*KSLOC^{E}$
+COCOMO formula for calculating the effort is $€ffort= 2.94*EAF*KSLOC^{E}$
 Where:
 \begin{itemize}
-	\item KSLOC is kilo lines of code calculated in the previous section.
-	\item 
+	\item KSLOC is kilo source lines of code calculated in the previous section.
+	\item EAF: effort adjustment factor derived from cost drivers
+	\item E: exponent derived from scale drivers
+	\item 2.94 a parameter
 \end{itemize}
-
-We will develop my taxi service basing on previous existing technologies, not from scratch, so it is safe to say that my taxi service belong to the organic class of projects.
-For organic projects b = 2.4 and c = 1.05, so E = 10.75
+We consider our project with all nominal Cost Drivers and Scale Drivers, thus EAF will be equal to 1 and E will be equal to 1.0997.
+So €ffort = $2.94*1*4.081^{1.0997} = 15.3709809$ person-months
 
 \subsection{Time estimation}
-COCOMO formula used to calculate the time needed to develop the software is $E = cKLOC^{d}$, where c and d are constants, for organic projects c = 2.5 and d = 0.38, hence T = 4.23.
+The duration of the project is calculated with the formula: Duration = $3.67*€ffort^{E}$
+Where:
+\begin{itemize}
+	\item €ffort is the effort calculated in the previous point.
+	\item E: exponent derived from scale drivers
+	\item 3.67 a parameter
+\end{itemize}
+So Duration = $3.67*15.3709809^{0.3179} = 3.60379248$ months
 
+\subsection{Conclusion}
+Now the we have effort (expressed in person-months) and duration (expressed in months) we can calculate the number of people necessary to develop the software
+$N = \frac{€ffort}{duration} = \frac{15.3709809}{3.60379248} = 4.26522365 \approx 5 people$. I decided to roundup to 5 to maintain a relatively large margin in case of problems.
